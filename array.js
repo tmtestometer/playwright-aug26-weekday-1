@@ -19,7 +19,6 @@
 // ram_marks.splice(0,1,90); // [90, 80, 45,85,200]
 
 
-
 // console.log(ram_marks)
 
 // for(let i of ram_marks){
