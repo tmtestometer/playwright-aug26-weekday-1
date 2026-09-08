@@ -3,13 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "playwright": "^1.62.1",
     "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.4.0",
+    "merv-client": "^4.0.23",
+    "merv-client-playwright": "^4.0.23"
   }
 }

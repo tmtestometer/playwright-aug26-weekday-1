@@ -1,0 +1,121 @@
+{
+  "version": "1.0",
+  "running": false,
+  "lastActivityMillis": 1788187298649,
+  "exportDate": "Mon Aug 31 2026 20:11:38 GMT+0530 (India Standard Time)",
+  "testSuite": {
+    "title": "playwright-aug-2026",
+    "startTime": "2026-08-31T14:41:36.598Z",
+    "endTime": "2026-08-31T14:41:38.649Z",
+    "testCases": [
+      {
+        "testcaseName": " › chromium › example.spec.js › Playwright-aug2026-demo",
+        "status": "PASSED",
+        "failureReason": null,
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-08-31T14:41:37.017Z",
+        "endTime": "2026-08-31T14:41:38.128Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-08-31T14:41:37.041Z",
+            "endTime": "2026-08-31T14:41:37.437Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-08-31T14:41:37.438Z",
+            "endTime": "2026-08-31T14:41:37.443Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-08-31T14:41:37.446Z",
+            "endTime": "2026-08-31T14:41:37.674Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-08-31T14:41:37.678Z",
+            "endTime": "2026-08-31T14:41:37.953Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-08-31T14:41:37.981Z",
+            "endTime": "2026-08-31T14:41:38.152Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Fill \"standard_user\" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-08-31T14:41:38.155Z",
+            "endTime": "2026-08-31T14:41:38.176Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-08-31T14:41:38.178Z",
+            "endTime": "2026-08-31T14:41:38.230Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Fill \"secret_sauce\" locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-08-31T14:41:38.232Z",
+            "endTime": "2026-08-31T14:41:38.247Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-button\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-08-31T14:41:38.249Z",
+            "endTime": "2026-08-31T14:41:38.350Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-08-31T14:41:38.426Z",
+            "endTime": "2026-08-31T14:41:38.544Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-d7c05523a60df53e5251-att0.png"
+            ]
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-d7c05523a60df53e5251-video1.webm"
+        ]
+      }
+    ]
+  }
+}
