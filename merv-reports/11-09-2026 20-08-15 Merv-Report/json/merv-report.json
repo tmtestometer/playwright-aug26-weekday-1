@@ -1,0 +1,1863 @@
+{
+  "version": "1.0",
+  "running": false,
+  "lastActivityMillis": 1789137518012,
+  "exportDate": "Fri Sep 11 2026 20:08:38 GMT+0530 (India Standard Time)",
+  "testSuite": {
+    "title": "playwright-aug-2026",
+    "startTime": "2026-09-11T14:38:15.782Z",
+    "endTime": "2026-09-11T14:38:38.012Z",
+    "testCases": [
+      {
+        "testcaseName": " › chromium › example.spec.js › empty username with random password",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:38:16.482Z",
+        "endTime": "2026-09-11T14:38:17.799Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:16.550Z",
+            "endTime": "2026-09-11T14:38:17.403Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:17.432Z",
+            "endTime": "2026-09-11T14:38:17.466Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:17.472Z",
+            "endTime": "2026-09-11T14:38:17.782Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:17.785Z",
+            "endTime": "2026-09-11T14:38:18.216Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0fee69f2f9669dcb950-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:18.635Z",
+            "endTime": "2026-09-11T14:38:18.736Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0fee69f2f9669dcb950-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "actual": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "startTime": "2026-09-11T14:38:16.482Z",
+            "endTime": "2026-09-11T14:38:17.799Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-c0fee69f2f9669dcb950-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › empty username and empty password",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:38:16.484Z",
+        "endTime": "2026-09-11T14:38:17.799Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:16.556Z",
+            "endTime": "2026-09-11T14:38:17.438Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:17.440Z",
+            "endTime": "2026-09-11T14:38:17.447Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:17.468Z",
+            "endTime": "2026-09-11T14:38:17.780Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:17.784Z",
+            "endTime": "2026-09-11T14:38:18.216Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-fd26e6f9e91e19a0d713-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:18.624Z",
+            "endTime": "2026-09-11T14:38:18.731Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-fd26e6f9e91e19a0d713-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "actual": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "startTime": "2026-09-11T14:38:16.484Z",
+            "endTime": "2026-09-11T14:38:17.799Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-fd26e6f9e91e19a0d713-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › empty username with valid password",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:38:16.486Z",
+        "endTime": "2026-09-11T14:38:17.706Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:16.556Z",
+            "endTime": "2026-09-11T14:38:17.492Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:17.494Z",
+            "endTime": "2026-09-11T14:38:17.498Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:17.499Z",
+            "endTime": "2026-09-11T14:38:17.781Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:17.784Z",
+            "endTime": "2026-09-11T14:38:18.220Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-459969ef38c7406aaf62-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:18.602Z",
+            "endTime": "2026-09-11T14:38:18.698Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-459969ef38c7406aaf62-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "actual": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "startTime": "2026-09-11T14:38:16.486Z",
+            "endTime": "2026-09-11T14:38:17.706Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-459969ef38c7406aaf62-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › empty username with invalid password",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:38:16.524Z",
+        "endTime": "2026-09-11T14:38:17.733Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:16.567Z",
+            "endTime": "2026-09-11T14:38:17.531Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:17.534Z",
+            "endTime": "2026-09-11T14:38:17.538Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:17.540Z",
+            "endTime": "2026-09-11T14:38:17.781Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:17.784Z",
+            "endTime": "2026-09-11T14:38:18.217Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-e5519961992ac78d8682-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:18.636Z",
+            "endTime": "2026-09-11T14:38:18.738Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-e5519961992ac78d8682-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "actual": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "startTime": "2026-09-11T14:38:16.524Z",
+            "endTime": "2026-09-11T14:38:17.733Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-e5519961992ac78d8682-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › invalid username with empty password",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:38:20.568Z",
+        "endTime": "2026-09-11T14:38:21.591Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:20.609Z",
+            "endTime": "2026-09-11T14:38:20.823Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:20.833Z",
+            "endTime": "2026-09-11T14:38:20.851Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:20.854Z",
+            "endTime": "2026-09-11T14:38:21.008Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:21.014Z",
+            "endTime": "2026-09-11T14:38:21.456Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0cb69243b9ebf2199ce-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:21.771Z",
+            "endTime": "2026-09-11T14:38:21.851Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0cb69243b9ebf2199ce-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "actual": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "startTime": "2026-09-11T14:38:20.568Z",
+            "endTime": "2026-09-11T14:38:21.591Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-c0cb69243b9ebf2199ce-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › valid username with empty password",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:38:20.573Z",
+        "endTime": "2026-09-11T14:38:21.581Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:20.615Z",
+            "endTime": "2026-09-11T14:38:20.812Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:20.821Z",
+            "endTime": "2026-09-11T14:38:20.850Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:20.853Z",
+            "endTime": "2026-09-11T14:38:21.009Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:21.016Z",
+            "endTime": "2026-09-11T14:38:21.440Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-a28ecd4b714f588fe6ef-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:21.749Z",
+            "endTime": "2026-09-11T14:38:21.836Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-a28ecd4b714f588fe6ef-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "actual": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "startTime": "2026-09-11T14:38:20.573Z",
+            "endTime": "2026-09-11T14:38:21.581Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-a28ecd4b714f588fe6ef-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › invalid username with valid password",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:38:20.573Z",
+        "endTime": "2026-09-11T14:38:21.648Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:20.612Z",
+            "endTime": "2026-09-11T14:38:20.798Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:20.807Z",
+            "endTime": "2026-09-11T14:38:20.821Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:20.833Z",
+            "endTime": "2026-09-11T14:38:21.034Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:21.043Z",
+            "endTime": "2026-09-11T14:38:21.460Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-861c5ce2bb9bf363a5d0-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:21.743Z",
+            "endTime": "2026-09-11T14:38:21.868Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-861c5ce2bb9bf363a5d0-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "actual": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "startTime": "2026-09-11T14:38:20.573Z",
+            "endTime": "2026-09-11T14:38:21.648Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-861c5ce2bb9bf363a5d0-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › random username with empty password",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:38:20.586Z",
+        "endTime": "2026-09-11T14:38:21.644Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:20.629Z",
+            "endTime": "2026-09-11T14:38:20.796Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:20.805Z",
+            "endTime": "2026-09-11T14:38:20.840Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:20.842Z",
+            "endTime": "2026-09-11T14:38:21.044Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:21.049Z",
+            "endTime": "2026-09-11T14:38:21.451Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-43bfd2b015ba5cc459d4-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:21.745Z",
+            "endTime": "2026-09-11T14:38:21.847Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-43bfd2b015ba5cc459d4-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "actual": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "startTime": "2026-09-11T14:38:20.586Z",
+            "endTime": "2026-09-11T14:38:21.644Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-43bfd2b015ba5cc459d4-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › invalid username with invalid password",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:38:23.979Z",
+        "endTime": "2026-09-11T14:38:24.935Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:24.017Z",
+            "endTime": "2026-09-11T14:38:24.281Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:24.299Z",
+            "endTime": "2026-09-11T14:38:24.350Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:24.353Z",
+            "endTime": "2026-09-11T14:38:24.592Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:24.635Z",
+            "endTime": "2026-09-11T14:38:24.884Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-1842aec6f0bbaa769337-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:25.138Z",
+            "endTime": "2026-09-11T14:38:25.235Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-1842aec6f0bbaa769337-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "actual": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "startTime": "2026-09-11T14:38:23.979Z",
+            "endTime": "2026-09-11T14:38:24.935Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-1842aec6f0bbaa769337-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › random username with random password",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:38:23.979Z",
+        "endTime": "2026-09-11T14:38:24.970Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:24.021Z",
+            "endTime": "2026-09-11T14:38:24.294Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:24.306Z",
+            "endTime": "2026-09-11T14:38:24.348Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:24.352Z",
+            "endTime": "2026-09-11T14:38:24.656Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:24.666Z",
+            "endTime": "2026-09-11T14:38:24.944Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-46fcfb7dc4d8a4a1880e-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:25.177Z",
+            "endTime": "2026-09-11T14:38:25.287Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-46fcfb7dc4d8a4a1880e-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "actual": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "startTime": "2026-09-11T14:38:23.979Z",
+            "endTime": "2026-09-11T14:38:24.970Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-46fcfb7dc4d8a4a1880e-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › valid username with invalid password",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:38:23.992Z",
+        "endTime": "2026-09-11T14:38:24.986Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:24.046Z",
+            "endTime": "2026-09-11T14:38:24.298Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:24.304Z",
+            "endTime": "2026-09-11T14:38:24.333Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:24.335Z",
+            "endTime": "2026-09-11T14:38:24.659Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:24.665Z",
+            "endTime": "2026-09-11T14:38:24.960Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-4a2846b61324dcc86d72-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:25.184Z",
+            "endTime": "2026-09-11T14:38:25.280Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-4a2846b61324dcc86d72-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "actual": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "startTime": "2026-09-11T14:38:23.992Z",
+            "endTime": "2026-09-11T14:38:24.986Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-4a2846b61324dcc86d72-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › username with leading spaces",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:38:23.985Z",
+        "endTime": "2026-09-11T14:38:24.927Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:24.039Z",
+            "endTime": "2026-09-11T14:38:24.297Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:24.300Z",
+            "endTime": "2026-09-11T14:38:24.337Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:24.343Z",
+            "endTime": "2026-09-11T14:38:24.657Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:24.663Z",
+            "endTime": "2026-09-11T14:38:24.909Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-f89e3a61f9b4f4401ece-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:25.135Z",
+            "endTime": "2026-09-11T14:38:25.233Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-f89e3a61f9b4f4401ece-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "actual": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "startTime": "2026-09-11T14:38:23.985Z",
+            "endTime": "2026-09-11T14:38:24.927Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-f89e3a61f9b4f4401ece-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › username with trailing spaces",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:38:27.364Z",
+        "endTime": "2026-09-11T14:38:28.188Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:27.415Z",
+            "endTime": "2026-09-11T14:38:27.648Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:27.661Z",
+            "endTime": "2026-09-11T14:38:27.686Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:27.689Z",
+            "endTime": "2026-09-11T14:38:27.866Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:27.874Z",
+            "endTime": "2026-09-11T14:38:28.187Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-2b81755de0eec14d3792-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:28.393Z",
+            "endTime": "2026-09-11T14:38:28.461Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-2b81755de0eec14d3792-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "actual": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "startTime": "2026-09-11T14:38:27.364Z",
+            "endTime": "2026-09-11T14:38:28.188Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-2b81755de0eec14d3792-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › password with leading spaces",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:38:27.367Z",
+        "endTime": "2026-09-11T14:38:28.152Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:27.427Z",
+            "endTime": "2026-09-11T14:38:27.651Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:27.653Z",
+            "endTime": "2026-09-11T14:38:27.673Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:27.675Z",
+            "endTime": "2026-09-11T14:38:27.822Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:27.827Z",
+            "endTime": "2026-09-11T14:38:28.110Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-e3dd959e525090c89d7c-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:28.344Z",
+            "endTime": "2026-09-11T14:38:28.426Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-e3dd959e525090c89d7c-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "actual": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "startTime": "2026-09-11T14:38:27.367Z",
+            "endTime": "2026-09-11T14:38:28.152Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-e3dd959e525090c89d7c-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › username with leading and trailing spaces",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:38:27.368Z",
+        "endTime": "2026-09-11T14:38:28.214Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:27.413Z",
+            "endTime": "2026-09-11T14:38:27.657Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:27.670Z",
+            "endTime": "2026-09-11T14:38:27.689Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:27.692Z",
+            "endTime": "2026-09-11T14:38:27.871Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:27.874Z",
+            "endTime": "2026-09-11T14:38:28.187Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-d43b4d8e4b9ad860c340-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:28.376Z",
+            "endTime": "2026-09-11T14:38:28.492Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-d43b4d8e4b9ad860c340-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "actual": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "startTime": "2026-09-11T14:38:27.368Z",
+            "endTime": "2026-09-11T14:38:28.214Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-d43b4d8e4b9ad860c340-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › password with trailing spaces",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:38:27.379Z",
+        "endTime": "2026-09-11T14:38:28.198Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:27.433Z",
+            "endTime": "2026-09-11T14:38:27.655Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:27.667Z",
+            "endTime": "2026-09-11T14:38:27.681Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:27.687Z",
+            "endTime": "2026-09-11T14:38:27.871Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:27.873Z",
+            "endTime": "2026-09-11T14:38:28.187Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0b96e78df24be50ae79-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:28.367Z",
+            "endTime": "2026-09-11T14:38:28.466Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0b96e78df24be50ae79-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "actual": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "startTime": "2026-09-11T14:38:27.379Z",
+            "endTime": "2026-09-11T14:38:28.198Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-c0b96e78df24be50ae79-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › special characters in username",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:38:30.563Z",
+        "endTime": "2026-09-11T14:38:31.695Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:30.623Z",
+            "endTime": "2026-09-11T14:38:30.855Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:30.920Z",
+            "endTime": "2026-09-11T14:38:30.977Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:30.996Z",
+            "endTime": "2026-09-11T14:38:31.117Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:31.120Z",
+            "endTime": "2026-09-11T14:38:31.480Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-5c3c534a45bc0a5480c7-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:31.898Z",
+            "endTime": "2026-09-11T14:38:32.011Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-5c3c534a45bc0a5480c7-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "actual": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "startTime": "2026-09-11T14:38:30.563Z",
+            "endTime": "2026-09-11T14:38:31.695Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-5c3c534a45bc0a5480c7-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › special characters in password",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:38:30.563Z",
+        "endTime": "2026-09-11T14:38:31.792Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:30.601Z",
+            "endTime": "2026-09-11T14:38:30.813Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:30.822Z",
+            "endTime": "2026-09-11T14:38:30.851Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:30.852Z",
+            "endTime": "2026-09-11T14:38:31.010Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:31.019Z",
+            "endTime": "2026-09-11T14:38:31.383Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-971ae8a39e501365122f-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:31.905Z",
+            "endTime": "2026-09-11T14:38:32.038Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-971ae8a39e501365122f-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "actual": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "startTime": "2026-09-11T14:38:30.563Z",
+            "endTime": "2026-09-11T14:38:31.792Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-971ae8a39e501365122f-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › password with leading and trailing spaces",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:38:30.569Z",
+        "endTime": "2026-09-11T14:38:31.763Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:30.634Z",
+            "endTime": "2026-09-11T14:38:30.825Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:30.829Z",
+            "endTime": "2026-09-11T14:38:30.864Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:30.870Z",
+            "endTime": "2026-09-11T14:38:31.020Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:31.026Z",
+            "endTime": "2026-09-11T14:38:31.426Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c6a87ac00e5857c8d02b-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:31.921Z",
+            "endTime": "2026-09-11T14:38:32.009Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c6a87ac00e5857c8d02b-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "actual": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "startTime": "2026-09-11T14:38:30.569Z",
+            "endTime": "2026-09-11T14:38:31.763Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-c6a87ac00e5857c8d02b-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › numeric username",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:38:30.624Z",
+        "endTime": "2026-09-11T14:38:31.789Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:30.678Z",
+            "endTime": "2026-09-11T14:38:30.845Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:30.856Z",
+            "endTime": "2026-09-11T14:38:30.964Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:30.971Z",
+            "endTime": "2026-09-11T14:38:31.099Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:31.104Z",
+            "endTime": "2026-09-11T14:38:31.519Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-101ecb6fd3db196878ec-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:31.927Z",
+            "endTime": "2026-09-11T14:38:32.000Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-101ecb6fd3db196878ec-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "actual": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "startTime": "2026-09-11T14:38:30.624Z",
+            "endTime": "2026-09-11T14:38:31.789Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-101ecb6fd3db196878ec-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › very long username",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:38:34.102Z",
+        "endTime": "2026-09-11T14:38:34.919Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:34.141Z",
+            "endTime": "2026-09-11T14:38:34.380Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:34.393Z",
+            "endTime": "2026-09-11T14:38:34.406Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:34.411Z",
+            "endTime": "2026-09-11T14:38:34.603Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:34.613Z",
+            "endTime": "2026-09-11T14:38:34.894Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-485d12fbe8ffa619c8f3-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:35.108Z",
+            "endTime": "2026-09-11T14:38:35.200Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-485d12fbe8ffa619c8f3-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "actual": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "startTime": "2026-09-11T14:38:34.102Z",
+            "endTime": "2026-09-11T14:38:34.919Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-485d12fbe8ffa619c8f3-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › numeric password",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:38:34.111Z",
+        "endTime": "2026-09-11T14:38:34.914Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:34.151Z",
+            "endTime": "2026-09-11T14:38:34.374Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:34.379Z",
+            "endTime": "2026-09-11T14:38:34.402Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:34.406Z",
+            "endTime": "2026-09-11T14:38:34.575Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:34.598Z",
+            "endTime": "2026-09-11T14:38:34.895Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-fbd82ea6b7f298b0d939-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:35.094Z",
+            "endTime": "2026-09-11T14:38:35.171Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-fbd82ea6b7f298b0d939-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "actual": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "startTime": "2026-09-11T14:38:34.111Z",
+            "endTime": "2026-09-11T14:38:34.914Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-fbd82ea6b7f298b0d939-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › very long password",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:38:34.104Z",
+        "endTime": "2026-09-11T14:38:34.930Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:34.136Z",
+            "endTime": "2026-09-11T14:38:34.372Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:34.376Z",
+            "endTime": "2026-09-11T14:38:34.399Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:34.400Z",
+            "endTime": "2026-09-11T14:38:34.572Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:34.585Z",
+            "endTime": "2026-09-11T14:38:34.895Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-2fde73b5025591d33ff6-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:35.109Z",
+            "endTime": "2026-09-11T14:38:35.185Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-2fde73b5025591d33ff6-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "actual": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "startTime": "2026-09-11T14:38:34.104Z",
+            "endTime": "2026-09-11T14:38:34.930Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-2fde73b5025591d33ff6-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › case sensitive username",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:38:34.129Z",
+        "endTime": "2026-09-11T14:38:34.916Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:34.168Z",
+            "endTime": "2026-09-11T14:38:34.363Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:34.372Z",
+            "endTime": "2026-09-11T14:38:34.399Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:34.402Z",
+            "endTime": "2026-09-11T14:38:34.576Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:34.617Z",
+            "endTime": "2026-09-11T14:38:34.895Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-98c34406070f2b7c2cb0-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:35.092Z",
+            "endTime": "2026-09-11T14:38:35.172Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-98c34406070f2b7c2cb0-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "actual": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "startTime": "2026-09-11T14:38:34.129Z",
+            "endTime": "2026-09-11T14:38:34.916Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-98c34406070f2b7c2cb0-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › case sensitive password",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:38:37.186Z",
+        "endTime": "2026-09-11T14:38:37.687Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:37.211Z",
+            "endTime": "2026-09-11T14:38:37.302Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:37.307Z",
+            "endTime": "2026-09-11T14:38:37.312Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:37.316Z",
+            "endTime": "2026-09-11T14:38:37.364Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:37.366Z",
+            "endTime": "2026-09-11T14:38:37.594Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-ca4d6b3a790ff0e26741-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:37.746Z",
+            "endTime": "2026-09-11T14:38:37.800Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-ca4d6b3a790ff0e26741-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "actual": "ReferenceError: lgObject is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:10:13\n\n8 | for( let data of testdata){\n   9 |   test(data.testname, async ({ page }) => {\n> 10 |     lgObject = new LoginPage(page);\n     |             ^\n  11 |     await login(page, data.username,data.password);\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });",
+            "startTime": "2026-09-11T14:38:37.186Z",
+            "endTime": "2026-09-11T14:38:37.687Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-ca4d6b3a790ff0e26741-video1.webm"
+        ]
+      }
+    ]
+  }
+}

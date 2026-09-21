@@ -1,0 +1,21 @@
+{"ts":"2026-09-21T14:42:20.415Z","level":"INFO","name":"Merv","msg":"Suite started — playwright-aug-2026","suite":"playwright-aug-2026"}
+{"ts":"2026-09-21T14:42:20.943Z","level":"INFO","name":"Merv","msg":"Hook: test start — Api testing post"}
+{"ts":"2026-09-21T14:42:21.067Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"request\" › Create request context","suite":"playwright-aug-2026","testcase":"› chromium › api.spec.js › Api testing post"}
+{"ts":"2026-09-21T14:42:21.663Z","level":"INFO","name":"Merv","msg":"POST \"/objects\"","suite":"playwright-aug-2026","testcase":"› chromium › api.spec.js › Api testing post"}
+{"ts":"2026-09-21T14:42:21.718Z","level":"INFO","name":"Merv","msg":"Hook: test end — Api testing post"}
+{"ts":"2026-09-21T14:42:21.836Z","level":"ERROR","name":"Merv","msg":"Expect \"toBe\"","suite":"playwright-aug-2026","testcase":"› chromium › api.spec.js › Api testing post"}
+{"ts":"2026-09-21T14:42:22.095Z","level":"ERROR","name":"Merv","msg":"Test finished —  › chromium › api.spec.js › Api testing post (FAILED)","suite":"playwright-aug-2026","testcase":"› chromium › api.spec.js › Api testing post"}
+{"ts":"2026-09-21T14:42:36.922Z","level":"INFO","name":"Merv","msg":"Suite started — playwright-aug-2026","suite":"playwright-aug-2026"}
+{"ts":"2026-09-21T14:42:37.284Z","level":"INFO","name":"Merv","msg":"Hook: test start — Api testing post"}
+{"ts":"2026-09-21T14:42:37.377Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"request\" › Create request context","suite":"playwright-aug-2026","testcase":"› chromium › api.spec.js › Api testing post"}
+{"ts":"2026-09-21T14:42:37.893Z","level":"INFO","name":"Merv","msg":"POST \"/objects\"","suite":"playwright-aug-2026","testcase":"› chromium › api.spec.js › Api testing post"}
+{"ts":"2026-09-21T14:42:37.902Z","level":"INFO","name":"Merv","msg":"Hook: test end — Api testing post"}
+{"ts":"2026-09-21T14:42:37.928Z","level":"INFO","name":"Merv","msg":"Expect \"toBe\"","suite":"playwright-aug-2026","testcase":"› chromium › api.spec.js › Api testing post"}
+{"ts":"2026-09-21T14:42:38.030Z","level":"INFO","name":"Merv","msg":"Test finished —  › chromium › api.spec.js › Api testing post (PASSED)","suite":"playwright-aug-2026","testcase":"› chromium › api.spec.js › Api testing post"}
+{"ts":"2026-09-21T14:43:09.436Z","level":"INFO","name":"Merv","msg":"Suite started — playwright-aug-2026","suite":"playwright-aug-2026"}
+{"ts":"2026-09-21T14:43:09.867Z","level":"INFO","name":"Merv","msg":"Hook: test start — Api testing post"}
+{"ts":"2026-09-21T14:43:09.967Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"request\" › Create request context","suite":"playwright-aug-2026","testcase":"› chromium › api.spec.js › Api testing post"}
+{"ts":"2026-09-21T14:43:10.532Z","level":"INFO","name":"Merv","msg":"POST \"/objects\"","suite":"playwright-aug-2026","testcase":"› chromium › api.spec.js › Api testing post"}
+{"ts":"2026-09-21T14:43:10.540Z","level":"INFO","name":"Merv","msg":"Hook: test end — Api testing post"}
+{"ts":"2026-09-21T14:43:10.575Z","level":"INFO","name":"Merv","msg":"Expect \"toBe\"","suite":"playwright-aug-2026","testcase":"› chromium › api.spec.js › Api testing post"}
+{"ts":"2026-09-21T14:43:10.831Z","level":"INFO","name":"Merv","msg":"Test finished —  › chromium › api.spec.js › Api testing post (PASSED)","suite":"playwright-aug-2026","testcase":"› chromium › api.spec.js › Api testing post"}

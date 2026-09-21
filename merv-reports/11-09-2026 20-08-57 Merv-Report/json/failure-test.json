@@ -1,0 +1,309 @@
+{
+  "version": "1.0",
+  "exportDate": "Fri Sep 11 2026 20:09:26 GMT+0530 (India Standard Time)",
+  "suiteTitle": "playwright-aug-2026",
+  "running": false,
+  "failureCount": 25,
+  "failures": [
+    {
+      "testcaseName": "› chromium › example.spec.js › empty username with valid password",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:38:58.416Z",
+      "endTime": "2026-09-11T14:38:59.810Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › empty username with invalid password",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:38:58.415Z",
+      "endTime": "2026-09-11T14:38:59.821Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › empty username and empty password",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:38:58.418Z",
+      "endTime": "2026-09-11T14:38:59.812Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › empty username with random password",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:38:58.418Z",
+      "endTime": "2026-09-11T14:38:59.882Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › invalid username with empty password",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:39:02.592Z",
+      "endTime": "2026-09-11T14:39:03.383Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › invalid username with valid password",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:39:02.608Z",
+      "endTime": "2026-09-11T14:39:03.404Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › random username with empty password",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:39:02.597Z",
+      "endTime": "2026-09-11T14:39:03.314Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › valid username with empty password",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:39:02.610Z",
+      "endTime": "2026-09-11T14:39:03.309Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › random username with random password",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:39:07.535Z",
+      "endTime": "2026-09-11T14:39:08.448Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › invalid username with invalid password",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:39:07.547Z",
+      "endTime": "2026-09-11T14:39:08.404Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › username with leading spaces",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:39:07.540Z",
+      "endTime": "2026-09-11T14:39:08.560Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › valid username with invalid password",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:39:07.564Z",
+      "endTime": "2026-09-11T14:39:08.587Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › password with trailing spaces",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:39:12.174Z",
+      "endTime": "2026-09-11T14:39:12.966Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › username with trailing spaces",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:39:12.177Z",
+      "endTime": "2026-09-11T14:39:13.058Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › username with leading and trailing spaces",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:39:12.179Z",
+      "endTime": "2026-09-11T14:39:12.971Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › password with leading spaces",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:39:12.219Z",
+      "endTime": "2026-09-11T14:39:13.127Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › special characters in password",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:39:15.794Z",
+      "endTime": "2026-09-11T14:39:16.454Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › password with leading and trailing spaces",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:39:15.795Z",
+      "endTime": "2026-09-11T14:39:16.673Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › numeric username",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:39:15.796Z",
+      "endTime": "2026-09-11T14:39:16.682Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › special characters in username",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:39:15.796Z",
+      "endTime": "2026-09-11T14:39:16.630Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › very long password",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:39:21.012Z",
+      "endTime": "2026-09-11T14:39:22.337Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › numeric password",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:39:21.018Z",
+      "endTime": "2026-09-11T14:39:22.281Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › very long username",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:39:21.039Z",
+      "endTime": "2026-09-11T14:39:22.309Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › case sensitive username",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:39:21.093Z",
+      "endTime": "2026-09-11T14:39:22.256Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › case sensitive password",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:39:25.199Z",
+      "endTime": "2026-09-11T14:39:25.715Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    }
+  ]
+}

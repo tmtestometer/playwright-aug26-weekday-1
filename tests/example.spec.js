@@ -1,33 +1,40 @@
 import { test, expect } from '@playwright/test';
+import  testdata  from '../data.json' with {"type":"json"}
+import { LoginPage } from '../pages/login_page.js'
 
-
-//for (let i = 1; i <= 100; i++){
-test(`demo`, async ({ page }) => {
+test.beforeEach(async({page})=>{
   await page.goto('https://www.saucedemo.com/');
-  await page.locator('[data-test="username"]').click();
-  await page.locator('[data-test="username"]').fill('standard_user');
-  await page.locator('[data-test="password"]').click();
-  await page.locator('[data-test="password"]').fill('secret_sauce');
-  await page.locator('[data-test="login-button"]').click();
-
-});
-
-test(`demo1`, async ({ page }) => {
-  await page.goto('https://www.saucedemo.com/');
+})
 
 
-  await page.locator('[data-test="username"]').click();
-  await page.locator('[data-test="username"]').fill('standard_user');
-  await page.locator('[data-test="password"]').click();
-  await page.locator('[data-test="password"]').fill('secret_sauce');
-  await page.locator('[data-test="login-button"]').click();
-});
 
-
-//}
+for( let data of testdata){
+  test(data.testname, async ({ page }) => {
+    let lgObject = new LoginPage(page);
+    await lgObject.login(data.username,data.password);
+    await lgObject.validateErrorMsg(data.errorMsg)
+  });
+}
 
 
 
 
-// default - all testcase execute - headless
-// 
+
+
+
+
+// test("verify user able to check errormsg for empty username", async ({ page }) => {
+//   await login(page, '','ancd');
+//   await validateErrorMsg(page, "Epic sadface: Username is required")
+// });
+
+// test("verify user able to check errormsg for empty password", async ({ page }) => {
+//   await login(page, 'user1','');
+//   await validateErrorMsg(page, "Epic sadface: Password is required")
+// });
+
+// test("verify user able to check errormsg for wrong credentials", async ({ page }) => {
+//   await login(page, 'asdfasdf','adsfdsaf');
+//   await validateErrorMsg(page, "Epic sadface: Username and password do not match any user in this service")
+// });
+

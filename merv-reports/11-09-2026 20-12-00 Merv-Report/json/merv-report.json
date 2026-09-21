@@ -1,0 +1,2873 @@
+{
+  "version": "1.0",
+  "running": false,
+  "lastActivityMillis": 1789137763053,
+  "exportDate": "Fri Sep 11 2026 20:12:43 GMT+0530 (India Standard Time)",
+  "testSuite": {
+    "title": "playwright-aug-2026",
+    "startTime": "2026-09-11T14:42:00.705Z",
+    "endTime": "2026-09-11T14:42:43.053Z",
+    "testCases": [
+      {
+        "testcaseName": " › chromium › example.spec.js › empty username with random password",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:42:01.222Z",
+        "endTime": "2026-09-11T14:42:02.919Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:01.274Z",
+            "endTime": "2026-09-11T14:42:01.658Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:01.662Z",
+            "endTime": "2026-09-11T14:42:01.689Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:01.697Z",
+            "endTime": "2026-09-11T14:42:01.988Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:02.056Z",
+            "endTime": "2026-09-11T14:42:02.399Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0fee69f2f9669dcb950-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:02.603Z",
+            "endTime": "2026-09-11T14:42:02.694Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0fee69f2f9669dcb950-step15-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"\" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:02.743Z",
+            "endTime": "2026-09-11T14:42:02.802Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0fee69f2f9669dcb950-step18-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:02.860Z",
+            "endTime": "2026-09-11T14:42:02.960Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0fee69f2f9669dcb950-step21-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"ancd\" locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:03.010Z",
+            "endTime": "2026-09-11T14:42:03.024Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0fee69f2f9669dcb950-step24-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-button\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:03.073Z",
+            "endTime": "2026-09-11T14:42:03.116Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0fee69f2f9669dcb950-step27-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:03.234Z",
+            "endTime": "2026-09-11T14:42:03.352Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0fee69f2f9669dcb950-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "actual": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "startTime": "2026-09-11T14:42:01.222Z",
+            "endTime": "2026-09-11T14:42:02.919Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-c0fee69f2f9669dcb950-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › empty username and empty password",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:42:01.223Z",
+        "endTime": "2026-09-11T14:42:02.879Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:01.273Z",
+            "endTime": "2026-09-11T14:42:01.658Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:01.661Z",
+            "endTime": "2026-09-11T14:42:01.681Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:01.686Z",
+            "endTime": "2026-09-11T14:42:01.988Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:02.061Z",
+            "endTime": "2026-09-11T14:42:02.400Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-fd26e6f9e91e19a0d713-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:02.601Z",
+            "endTime": "2026-09-11T14:42:02.694Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-fd26e6f9e91e19a0d713-step15-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"\" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:02.734Z",
+            "endTime": "2026-09-11T14:42:02.764Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-fd26e6f9e91e19a0d713-step18-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:02.800Z",
+            "endTime": "2026-09-11T14:42:02.910Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-fd26e6f9e91e19a0d713-step21-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"\" locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:02.958Z",
+            "endTime": "2026-09-11T14:42:02.971Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-fd26e6f9e91e19a0d713-step24-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-button\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:03.007Z",
+            "endTime": "2026-09-11T14:42:03.050Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-fd26e6f9e91e19a0d713-step27-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:03.152Z",
+            "endTime": "2026-09-11T14:42:03.302Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-fd26e6f9e91e19a0d713-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "actual": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "startTime": "2026-09-11T14:42:01.223Z",
+            "endTime": "2026-09-11T14:42:02.879Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-fd26e6f9e91e19a0d713-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › empty username with valid password",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:42:01.223Z",
+        "endTime": "2026-09-11T14:42:02.912Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:01.274Z",
+            "endTime": "2026-09-11T14:42:01.659Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:01.661Z",
+            "endTime": "2026-09-11T14:42:01.673Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:01.686Z",
+            "endTime": "2026-09-11T14:42:01.987Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:02.059Z",
+            "endTime": "2026-09-11T14:42:02.398Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-459969ef38c7406aaf62-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:02.606Z",
+            "endTime": "2026-09-11T14:42:02.694Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-459969ef38c7406aaf62-step15-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"\" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:02.779Z",
+            "endTime": "2026-09-11T14:42:02.816Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-459969ef38c7406aaf62-step18-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:02.856Z",
+            "endTime": "2026-09-11T14:42:02.962Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-459969ef38c7406aaf62-step21-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"secret_sauce\" locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:03.008Z",
+            "endTime": "2026-09-11T14:42:03.024Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-459969ef38c7406aaf62-step24-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-button\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:03.071Z",
+            "endTime": "2026-09-11T14:42:03.116Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-459969ef38c7406aaf62-step27-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:03.228Z",
+            "endTime": "2026-09-11T14:42:03.351Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-459969ef38c7406aaf62-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "actual": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "startTime": "2026-09-11T14:42:01.223Z",
+            "endTime": "2026-09-11T14:42:02.912Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-459969ef38c7406aaf62-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › empty username with invalid password",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:42:01.230Z",
+        "endTime": "2026-09-11T14:42:02.907Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:01.287Z",
+            "endTime": "2026-09-11T14:42:01.659Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:01.661Z",
+            "endTime": "2026-09-11T14:42:01.683Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:01.692Z",
+            "endTime": "2026-09-11T14:42:02.007Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:02.060Z",
+            "endTime": "2026-09-11T14:42:02.401Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-e5519961992ac78d8682-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:02.600Z",
+            "endTime": "2026-09-11T14:42:02.692Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-e5519961992ac78d8682-step15-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"\" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:02.755Z",
+            "endTime": "2026-09-11T14:42:02.764Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-e5519961992ac78d8682-step18-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:02.823Z",
+            "endTime": "2026-09-11T14:42:02.910Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-e5519961992ac78d8682-step21-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"wrongpassword\" locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:02.950Z",
+            "endTime": "2026-09-11T14:42:02.971Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-e5519961992ac78d8682-step24-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-button\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:03.007Z",
+            "endTime": "2026-09-11T14:42:03.050Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-e5519961992ac78d8682-step27-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:03.182Z",
+            "endTime": "2026-09-11T14:42:03.326Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-e5519961992ac78d8682-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "actual": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "startTime": "2026-09-11T14:42:01.230Z",
+            "endTime": "2026-09-11T14:42:02.907Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-e5519961992ac78d8682-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › valid username with empty password",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:42:07.217Z",
+        "endTime": "2026-09-11T14:42:10.318Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:07.628Z",
+            "endTime": "2026-09-11T14:42:07.932Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:07.943Z",
+            "endTime": "2026-09-11T14:42:07.973Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:07.976Z",
+            "endTime": "2026-09-11T14:42:08.183Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:08.193Z",
+            "endTime": "2026-09-11T14:42:08.940Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-a28ecd4b714f588fe6ef-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:09.305Z",
+            "endTime": "2026-09-11T14:42:09.539Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-a28ecd4b714f588fe6ef-step15-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"standard_user\" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:09.664Z",
+            "endTime": "2026-09-11T14:42:09.717Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-a28ecd4b714f588fe6ef-step18-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:09.898Z",
+            "endTime": "2026-09-11T14:42:09.972Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-a28ecd4b714f588fe6ef-step21-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"\" locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:10.029Z",
+            "endTime": "2026-09-11T14:42:10.043Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-a28ecd4b714f588fe6ef-step24-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-button\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:10.195Z",
+            "endTime": "2026-09-11T14:42:10.436Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-a28ecd4b714f588fe6ef-step27-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:10.676Z",
+            "endTime": "2026-09-11T14:42:10.889Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-a28ecd4b714f588fe6ef-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "actual": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "startTime": "2026-09-11T14:42:07.217Z",
+            "endTime": "2026-09-11T14:42:10.318Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-a28ecd4b714f588fe6ef-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › random username with empty password",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:42:07.218Z",
+        "endTime": "2026-09-11T14:42:10.224Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:07.623Z",
+            "endTime": "2026-09-11T14:42:07.923Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:07.928Z",
+            "endTime": "2026-09-11T14:42:07.952Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:07.958Z",
+            "endTime": "2026-09-11T14:42:08.123Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:08.131Z",
+            "endTime": "2026-09-11T14:42:08.555Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-43bfd2b015ba5cc459d4-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:09.283Z",
+            "endTime": "2026-09-11T14:42:09.503Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-43bfd2b015ba5cc459d4-step15-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"asdfasdf\" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:09.618Z",
+            "endTime": "2026-09-11T14:42:09.759Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-43bfd2b015ba5cc459d4-step18-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:09.891Z",
+            "endTime": "2026-09-11T14:42:09.972Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-43bfd2b015ba5cc459d4-step21-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"\" locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:10.027Z",
+            "endTime": "2026-09-11T14:42:10.041Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-43bfd2b015ba5cc459d4-step24-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-button\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:10.101Z",
+            "endTime": "2026-09-11T14:42:10.180Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-43bfd2b015ba5cc459d4-step27-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:10.646Z",
+            "endTime": "2026-09-11T14:42:10.887Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-43bfd2b015ba5cc459d4-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "actual": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "startTime": "2026-09-11T14:42:07.218Z",
+            "endTime": "2026-09-11T14:42:10.224Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-43bfd2b015ba5cc459d4-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › invalid username with valid password",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:42:07.219Z",
+        "endTime": "2026-09-11T14:42:10.346Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:07.623Z",
+            "endTime": "2026-09-11T14:42:07.929Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:07.932Z",
+            "endTime": "2026-09-11T14:42:07.969Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:07.972Z",
+            "endTime": "2026-09-11T14:42:08.183Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:08.190Z",
+            "endTime": "2026-09-11T14:42:08.920Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-861c5ce2bb9bf363a5d0-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:09.301Z",
+            "endTime": "2026-09-11T14:42:09.741Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-861c5ce2bb9bf363a5d0-step15-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"invalid_user\" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:09.774Z",
+            "endTime": "2026-09-11T14:42:09.811Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-861c5ce2bb9bf363a5d0-step18-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:09.992Z",
+            "endTime": "2026-09-11T14:42:10.042Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-861c5ce2bb9bf363a5d0-step21-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"secret_sauce\" locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:10.095Z",
+            "endTime": "2026-09-11T14:42:10.117Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-861c5ce2bb9bf363a5d0-step24-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-button\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:10.402Z",
+            "endTime": "2026-09-11T14:42:10.526Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-861c5ce2bb9bf363a5d0-step27-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:10.794Z",
+            "endTime": "2026-09-11T14:42:10.971Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-861c5ce2bb9bf363a5d0-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "actual": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "startTime": "2026-09-11T14:42:07.219Z",
+            "endTime": "2026-09-11T14:42:10.346Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-861c5ce2bb9bf363a5d0-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › invalid username with empty password",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:42:07.228Z",
+        "endTime": "2026-09-11T14:42:10.417Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:07.618Z",
+            "endTime": "2026-09-11T14:42:07.926Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:07.931Z",
+            "endTime": "2026-09-11T14:42:07.947Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:07.961Z",
+            "endTime": "2026-09-11T14:42:08.238Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:08.249Z",
+            "endTime": "2026-09-11T14:42:09.089Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0cb69243b9ebf2199ce-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:09.400Z",
+            "endTime": "2026-09-11T14:42:09.654Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0cb69243b9ebf2199ce-step15-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"invalid_user\" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:09.761Z",
+            "endTime": "2026-09-11T14:42:09.770Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0cb69243b9ebf2199ce-step18-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:09.911Z",
+            "endTime": "2026-09-11T14:42:09.990Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0cb69243b9ebf2199ce-step21-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"\" locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:10.045Z",
+            "endTime": "2026-09-11T14:42:10.179Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0cb69243b9ebf2199ce-step24-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-button\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:10.408Z",
+            "endTime": "2026-09-11T14:42:10.519Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0cb69243b9ebf2199ce-step27-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:10.759Z",
+            "endTime": "2026-09-11T14:42:10.945Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0cb69243b9ebf2199ce-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "actual": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "startTime": "2026-09-11T14:42:07.228Z",
+            "endTime": "2026-09-11T14:42:10.417Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-c0cb69243b9ebf2199ce-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › random username with random password",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:42:15.899Z",
+        "endTime": "2026-09-11T14:42:17.834Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:15.941Z",
+            "endTime": "2026-09-11T14:42:16.332Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:16.351Z",
+            "endTime": "2026-09-11T14:42:16.375Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:16.570Z",
+            "endTime": "2026-09-11T14:42:16.774Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:16.778Z",
+            "endTime": "2026-09-11T14:42:17.112Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-46fcfb7dc4d8a4a1880e-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:17.274Z",
+            "endTime": "2026-09-11T14:42:17.423Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-46fcfb7dc4d8a4a1880e-step15-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"asdfasdf\" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:17.493Z",
+            "endTime": "2026-09-11T14:42:17.518Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-46fcfb7dc4d8a4a1880e-step18-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:17.687Z",
+            "endTime": "2026-09-11T14:42:17.767Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-46fcfb7dc4d8a4a1880e-step21-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"adsfdsaf\" locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:17.807Z",
+            "endTime": "2026-09-11T14:42:17.826Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-46fcfb7dc4d8a4a1880e-step24-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-button\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:17.886Z",
+            "endTime": "2026-09-11T14:42:17.989Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-46fcfb7dc4d8a4a1880e-step27-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:18.157Z",
+            "endTime": "2026-09-11T14:42:18.261Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-46fcfb7dc4d8a4a1880e-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "actual": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "startTime": "2026-09-11T14:42:15.899Z",
+            "endTime": "2026-09-11T14:42:17.834Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-46fcfb7dc4d8a4a1880e-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › invalid username with invalid password",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:42:15.928Z",
+        "endTime": "2026-09-11T14:42:17.976Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:15.978Z",
+            "endTime": "2026-09-11T14:42:16.191Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:16.206Z",
+            "endTime": "2026-09-11T14:42:16.353Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:16.361Z",
+            "endTime": "2026-09-11T14:42:16.767Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:16.777Z",
+            "endTime": "2026-09-11T14:42:17.113Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-1842aec6f0bbaa769337-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:17.269Z",
+            "endTime": "2026-09-11T14:42:17.386Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-1842aec6f0bbaa769337-step15-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"invalid_user\" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:17.469Z",
+            "endTime": "2026-09-11T14:42:17.494Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-1842aec6f0bbaa769337-step18-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:17.625Z",
+            "endTime": "2026-09-11T14:42:17.724Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-1842aec6f0bbaa769337-step21-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"wrongpassword\" locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:17.790Z",
+            "endTime": "2026-09-11T14:42:17.812Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-1842aec6f0bbaa769337-step24-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-button\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:17.875Z",
+            "endTime": "2026-09-11T14:42:17.941Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-1842aec6f0bbaa769337-step27-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:18.105Z",
+            "endTime": "2026-09-11T14:42:18.233Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-1842aec6f0bbaa769337-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "actual": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "startTime": "2026-09-11T14:42:15.928Z",
+            "endTime": "2026-09-11T14:42:17.976Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-1842aec6f0bbaa769337-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › valid username with invalid password",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:42:15.922Z",
+        "endTime": "2026-09-11T14:42:17.929Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:15.965Z",
+            "endTime": "2026-09-11T14:42:16.236Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:16.268Z",
+            "endTime": "2026-09-11T14:42:16.374Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:16.380Z",
+            "endTime": "2026-09-11T14:42:16.766Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:16.778Z",
+            "endTime": "2026-09-11T14:42:17.112Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-4a2846b61324dcc86d72-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:17.271Z",
+            "endTime": "2026-09-11T14:42:17.425Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-4a2846b61324dcc86d72-step15-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"standard_user\" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:17.491Z",
+            "endTime": "2026-09-11T14:42:17.517Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-4a2846b61324dcc86d72-step18-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:17.690Z",
+            "endTime": "2026-09-11T14:42:17.776Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-4a2846b61324dcc86d72-step21-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"wrongpassword\" locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:17.826Z",
+            "endTime": "2026-09-11T14:42:17.843Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-4a2846b61324dcc86d72-step24-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-button\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:17.892Z",
+            "endTime": "2026-09-11T14:42:17.988Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-4a2846b61324dcc86d72-step27-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:18.153Z",
+            "endTime": "2026-09-11T14:42:18.248Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-4a2846b61324dcc86d72-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "actual": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "startTime": "2026-09-11T14:42:15.922Z",
+            "endTime": "2026-09-11T14:42:17.929Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-4a2846b61324dcc86d72-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › username with leading spaces",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:42:15.940Z",
+        "endTime": "2026-09-11T14:42:17.978Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:15.979Z",
+            "endTime": "2026-09-11T14:42:16.278Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:16.312Z",
+            "endTime": "2026-09-11T14:42:16.601Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:16.612Z",
+            "endTime": "2026-09-11T14:42:16.824Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:16.828Z",
+            "endTime": "2026-09-11T14:42:17.138Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-f89e3a61f9b4f4401ece-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:17.268Z",
+            "endTime": "2026-09-11T14:42:17.381Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-f89e3a61f9b4f4401ece-step15-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \" standard_user\" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:17.485Z",
+            "endTime": "2026-09-11T14:42:17.512Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-f89e3a61f9b4f4401ece-step18-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:17.630Z",
+            "endTime": "2026-09-11T14:42:17.706Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-f89e3a61f9b4f4401ece-step21-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"secret_sauce\" locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:17.775Z",
+            "endTime": "2026-09-11T14:42:17.800Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-f89e3a61f9b4f4401ece-step24-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-button\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:17.840Z",
+            "endTime": "2026-09-11T14:42:17.923Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-f89e3a61f9b4f4401ece-step27-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:18.092Z",
+            "endTime": "2026-09-11T14:42:18.312Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-f89e3a61f9b4f4401ece-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "actual": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "startTime": "2026-09-11T14:42:15.940Z",
+            "endTime": "2026-09-11T14:42:17.978Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-f89e3a61f9b4f4401ece-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › username with leading and trailing spaces",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:42:23.623Z",
+        "endTime": "2026-09-11T14:42:25.362Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:23.667Z",
+            "endTime": "2026-09-11T14:42:23.905Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:23.910Z",
+            "endTime": "2026-09-11T14:42:23.945Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:23.950Z",
+            "endTime": "2026-09-11T14:42:24.120Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:24.123Z",
+            "endTime": "2026-09-11T14:42:24.427Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-d43b4d8e4b9ad860c340-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:24.657Z",
+            "endTime": "2026-09-11T14:42:24.878Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-d43b4d8e4b9ad860c340-step15-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \" standard_user \" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:24.921Z",
+            "endTime": "2026-09-11T14:42:24.962Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-d43b4d8e4b9ad860c340-step18-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:25.089Z",
+            "endTime": "2026-09-11T14:42:25.144Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-d43b4d8e4b9ad860c340-step21-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"secret_sauce\" locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:25.244Z",
+            "endTime": "2026-09-11T14:42:25.283Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-d43b4d8e4b9ad860c340-step24-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-button\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:25.350Z",
+            "endTime": "2026-09-11T14:42:25.465Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-d43b4d8e4b9ad860c340-step27-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:25.574Z",
+            "endTime": "2026-09-11T14:42:25.640Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-d43b4d8e4b9ad860c340-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "actual": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "startTime": "2026-09-11T14:42:23.623Z",
+            "endTime": "2026-09-11T14:42:25.362Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-d43b4d8e4b9ad860c340-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › username with trailing spaces",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:42:23.627Z",
+        "endTime": "2026-09-11T14:42:25.318Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:23.678Z",
+            "endTime": "2026-09-11T14:42:23.895Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:23.904Z",
+            "endTime": "2026-09-11T14:42:23.923Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:23.925Z",
+            "endTime": "2026-09-11T14:42:24.086Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:24.103Z",
+            "endTime": "2026-09-11T14:42:24.428Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-2b81755de0eec14d3792-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:24.665Z",
+            "endTime": "2026-09-11T14:42:24.751Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-2b81755de0eec14d3792-step15-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"standard_user \" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:24.805Z",
+            "endTime": "2026-09-11T14:42:24.818Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-2b81755de0eec14d3792-step18-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:24.959Z",
+            "endTime": "2026-09-11T14:42:25.008Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-2b81755de0eec14d3792-step21-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"secret_sauce\" locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:25.040Z",
+            "endTime": "2026-09-11T14:42:25.047Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-2b81755de0eec14d3792-step24-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-button\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:25.149Z",
+            "endTime": "2026-09-11T14:42:25.352Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-2b81755de0eec14d3792-step27-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:25.493Z",
+            "endTime": "2026-09-11T14:42:25.583Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-2b81755de0eec14d3792-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "actual": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "startTime": "2026-09-11T14:42:23.627Z",
+            "endTime": "2026-09-11T14:42:25.318Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-2b81755de0eec14d3792-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › password with leading spaces",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:42:23.627Z",
+        "endTime": "2026-09-11T14:42:25.321Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:23.676Z",
+            "endTime": "2026-09-11T14:42:23.897Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:23.912Z",
+            "endTime": "2026-09-11T14:42:23.935Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:23.939Z",
+            "endTime": "2026-09-11T14:42:24.089Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:24.106Z",
+            "endTime": "2026-09-11T14:42:24.427Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-e3dd959e525090c89d7c-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:24.666Z",
+            "endTime": "2026-09-11T14:42:24.842Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-e3dd959e525090c89d7c-step15-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"standard_user\" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:25.002Z",
+            "endTime": "2026-09-11T14:42:25.016Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-e3dd959e525090c89d7c-step18-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:25.121Z",
+            "endTime": "2026-09-11T14:42:25.179Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-e3dd959e525090c89d7c-step21-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \" secret_sauce\" locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:25.237Z",
+            "endTime": "2026-09-11T14:42:25.245Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-e3dd959e525090c89d7c-step24-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-button\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:25.356Z",
+            "endTime": "2026-09-11T14:42:25.401Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-e3dd959e525090c89d7c-step27-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:25.520Z",
+            "endTime": "2026-09-11T14:42:25.602Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-e3dd959e525090c89d7c-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "actual": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "startTime": "2026-09-11T14:42:23.627Z",
+            "endTime": "2026-09-11T14:42:25.321Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-e3dd959e525090c89d7c-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › password with trailing spaces",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:42:23.676Z",
+        "endTime": "2026-09-11T14:42:25.299Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:23.720Z",
+            "endTime": "2026-09-11T14:42:23.895Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:23.898Z",
+            "endTime": "2026-09-11T14:42:23.923Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:23.929Z",
+            "endTime": "2026-09-11T14:42:24.100Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:24.110Z",
+            "endTime": "2026-09-11T14:42:24.429Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0b96e78df24be50ae79-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:24.666Z",
+            "endTime": "2026-09-11T14:42:24.832Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0b96e78df24be50ae79-step15-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"standard_user\" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:24.876Z",
+            "endTime": "2026-09-11T14:42:24.887Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0b96e78df24be50ae79-step18-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:25.041Z",
+            "endTime": "2026-09-11T14:42:25.086Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0b96e78df24be50ae79-step21-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"secret_sauce \" locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:25.128Z",
+            "endTime": "2026-09-11T14:42:25.143Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0b96e78df24be50ae79-step24-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-button\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:25.177Z",
+            "endTime": "2026-09-11T14:42:25.270Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0b96e78df24be50ae79-step27-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:25.416Z",
+            "endTime": "2026-09-11T14:42:25.517Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0b96e78df24be50ae79-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "actual": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "startTime": "2026-09-11T14:42:23.676Z",
+            "endTime": "2026-09-11T14:42:25.299Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-c0b96e78df24be50ae79-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › special characters in username",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:42:30.851Z",
+        "endTime": "2026-09-11T14:42:32.378Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:30.906Z",
+            "endTime": "2026-09-11T14:42:31.194Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:31.199Z",
+            "endTime": "2026-09-11T14:42:31.227Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:31.231Z",
+            "endTime": "2026-09-11T14:42:31.457Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:31.461Z",
+            "endTime": "2026-09-11T14:42:31.804Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-5c3c534a45bc0a5480c7-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:31.916Z",
+            "endTime": "2026-09-11T14:42:32.034Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-5c3c534a45bc0a5480c7-step15-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"@#$%^&*\" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:32.086Z",
+            "endTime": "2026-09-11T14:42:32.115Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-5c3c534a45bc0a5480c7-step18-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:32.305Z",
+            "endTime": "2026-09-11T14:42:32.327Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-5c3c534a45bc0a5480c7-step21-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"secret_sauce\" locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:32.374Z",
+            "endTime": "2026-09-11T14:42:32.385Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-5c3c534a45bc0a5480c7-step24-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-button\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:32.424Z",
+            "endTime": "2026-09-11T14:42:32.509Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-5c3c534a45bc0a5480c7-step27-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:32.631Z",
+            "endTime": "2026-09-11T14:42:32.715Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-5c3c534a45bc0a5480c7-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "actual": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "startTime": "2026-09-11T14:42:30.851Z",
+            "endTime": "2026-09-11T14:42:32.378Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-5c3c534a45bc0a5480c7-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › special characters in password",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:42:30.869Z",
+        "endTime": "2026-09-11T14:42:32.363Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:30.931Z",
+            "endTime": "2026-09-11T14:42:31.192Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:31.202Z",
+            "endTime": "2026-09-11T14:42:31.241Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:31.243Z",
+            "endTime": "2026-09-11T14:42:31.454Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:31.459Z",
+            "endTime": "2026-09-11T14:42:31.761Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-971ae8a39e501365122f-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:31.911Z",
+            "endTime": "2026-09-11T14:42:31.999Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-971ae8a39e501365122f-step15-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"standard_user\" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:32.064Z",
+            "endTime": "2026-09-11T14:42:32.076Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-971ae8a39e501365122f-step18-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:32.193Z",
+            "endTime": "2026-09-11T14:42:32.261Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-971ae8a39e501365122f-step21-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"@#$%^&*\" locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:32.306Z",
+            "endTime": "2026-09-11T14:42:32.341Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-971ae8a39e501365122f-step24-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-button\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:32.391Z",
+            "endTime": "2026-09-11T14:42:32.439Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-971ae8a39e501365122f-step27-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:32.550Z",
+            "endTime": "2026-09-11T14:42:32.661Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-971ae8a39e501365122f-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "actual": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "startTime": "2026-09-11T14:42:30.869Z",
+            "endTime": "2026-09-11T14:42:32.363Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-971ae8a39e501365122f-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › password with leading and trailing spaces",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:42:30.893Z",
+        "endTime": "2026-09-11T14:42:32.412Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:30.947Z",
+            "endTime": "2026-09-11T14:42:31.195Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:31.203Z",
+            "endTime": "2026-09-11T14:42:31.232Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:31.234Z",
+            "endTime": "2026-09-11T14:42:31.441Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:31.454Z",
+            "endTime": "2026-09-11T14:42:31.766Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c6a87ac00e5857c8d02b-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:31.912Z",
+            "endTime": "2026-09-11T14:42:32.003Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c6a87ac00e5857c8d02b-step15-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"standard_user\" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:32.079Z",
+            "endTime": "2026-09-11T14:42:32.114Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c6a87ac00e5857c8d02b-step18-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:32.296Z",
+            "endTime": "2026-09-11T14:42:32.344Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c6a87ac00e5857c8d02b-step21-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \" secret_sauce \" locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:32.391Z",
+            "endTime": "2026-09-11T14:42:32.398Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c6a87ac00e5857c8d02b-step24-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-button\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:32.445Z",
+            "endTime": "2026-09-11T14:42:32.501Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c6a87ac00e5857c8d02b-step27-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:32.612Z",
+            "endTime": "2026-09-11T14:42:32.709Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c6a87ac00e5857c8d02b-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "actual": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "startTime": "2026-09-11T14:42:30.893Z",
+            "endTime": "2026-09-11T14:42:32.412Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-c6a87ac00e5857c8d02b-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › numeric username",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:42:30.938Z",
+        "endTime": "2026-09-11T14:42:32.420Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:31.010Z",
+            "endTime": "2026-09-11T14:42:31.199Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:31.212Z",
+            "endTime": "2026-09-11T14:42:31.244Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:31.252Z",
+            "endTime": "2026-09-11T14:42:31.415Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:31.425Z",
+            "endTime": "2026-09-11T14:42:31.719Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-101ecb6fd3db196878ec-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:31.896Z",
+            "endTime": "2026-09-11T14:42:31.965Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-101ecb6fd3db196878ec-step15-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"123456789\" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:32.058Z",
+            "endTime": "2026-09-11T14:42:32.072Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-101ecb6fd3db196878ec-step18-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:32.194Z",
+            "endTime": "2026-09-11T14:42:32.247Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-101ecb6fd3db196878ec-step21-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"secret_sauce\" locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:32.310Z",
+            "endTime": "2026-09-11T14:42:32.323Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-101ecb6fd3db196878ec-step24-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-button\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:32.374Z",
+            "endTime": "2026-09-11T14:42:32.440Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-101ecb6fd3db196878ec-step27-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:32.551Z",
+            "endTime": "2026-09-11T14:42:32.674Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-101ecb6fd3db196878ec-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "actual": "TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+            "startTime": "2026-09-11T14:42:30.938Z",
+            "endTime": "2026-09-11T14:42:32.420Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-101ecb6fd3db196878ec-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › numeric password",
+        "status": "IN_PROGRESS",
+        "failureReason": null,
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:42:38.894Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:38.935Z",
+            "endTime": "2026-09-11T14:42:39.144Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:39.148Z",
+            "endTime": "2026-09-11T14:42:39.157Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:39.160Z",
+            "endTime": "2026-09-11T14:42:39.341Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:39.345Z",
+            "endTime": "2026-09-11T14:42:39.678Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-fbd82ea6b7f298b0d939-live-11-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:39.841Z",
+            "endTime": "2026-09-11T14:42:39.929Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-fbd82ea6b7f298b0d939-live-12-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"standard_user\" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:39.998Z",
+            "endTime": "2026-09-11T14:42:40.126Z",
+            "errorMessage": null,
+            "screenshots": []
+          }
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › very long password",
+        "status": "IN_PROGRESS",
+        "failureReason": null,
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:42:38.911Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:38.945Z",
+            "endTime": "2026-09-11T14:42:39.137Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:39.146Z",
+            "endTime": "2026-09-11T14:42:39.170Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:39.178Z",
+            "endTime": "2026-09-11T14:42:39.365Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:39.395Z",
+            "endTime": "2026-09-11T14:42:39.682Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-2fde73b5025591d33ff6-live-11-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:39.823Z",
+            "endTime": "2026-09-11T14:42:39.919Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-2fde73b5025591d33ff6-live-12-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"standard_user\" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:39.995Z",
+            "endTime": "2026-09-11T14:42:40.057Z",
+            "errorMessage": null,
+            "screenshots": []
+          }
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › very long username",
+        "status": "IN_PROGRESS",
+        "failureReason": null,
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:42:38.935Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:38.977Z",
+            "endTime": "2026-09-11T14:42:39.201Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:39.235Z",
+            "endTime": "2026-09-11T14:42:39.256Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:39.258Z",
+            "endTime": "2026-09-11T14:42:39.407Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:39.412Z",
+            "endTime": "2026-09-11T14:42:39.706Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-485d12fbe8ffa619c8f3-live-11-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:39.842Z",
+            "endTime": "2026-09-11T14:42:39.990Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-485d12fbe8ffa619c8f3-live-12-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:40.179Z",
+            "endTime": "2026-09-11T14:42:40.242Z",
+            "errorMessage": null,
+            "screenshots": []
+          }
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › case sensitive username",
+        "status": "IN_PROGRESS",
+        "failureReason": null,
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:42:38.964Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:39.015Z",
+            "endTime": "2026-09-11T14:42:39.204Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:39.335Z",
+            "endTime": "2026-09-11T14:42:39.362Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:39.366Z",
+            "endTime": "2026-09-11T14:42:39.489Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:39.500Z",
+            "endTime": "2026-09-11T14:42:39.787Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-98c34406070f2b7c2cb0-live-11-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:39.929Z",
+            "endTime": "2026-09-11T14:42:40.128Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-98c34406070f2b7c2cb0-live-12-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"STANDARD_USER\" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:42:40.187Z",
+            "endTime": "2026-09-11T14:42:40.227Z",
+            "errorMessage": null,
+            "screenshots": []
+          }
+        ]
+      }
+    ]
+  }
+}

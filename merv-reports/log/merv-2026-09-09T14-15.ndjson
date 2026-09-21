@@ -1,0 +1,138 @@
+{"ts":"2026-09-09T14:18:11.616Z","level":"INFO","name":"Merv","msg":"Suite started — playwright-aug-2026","suite":"playwright-aug-2026"}
+{"ts":"2026-09-09T14:18:12.049Z","level":"INFO","name":"Merv","msg":"Hook: test start — demo"}
+{"ts":"2026-09-09T14:18:12.501Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"browser\" › Launch browser","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:12.547Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"context\" › Create context","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:12.743Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"page\" › Create page","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:12.744Z","level":"INFO","name":"Merv","msg":"Hook: page setup — demo","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:13.110Z","level":"INFO","name":"Merv","msg":"Navigate to \"/\"","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:13.241Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:13.243Z","level":"INFO","name":"Merv","msg":"Playwright page.goto \"https://www.saucedemo.com/\"","screenshot":"log/screenshots/log-2026-09-09T14-18-13-242Z.png","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:13.283Z","level":"INFO","name":"Merv","msg":"Attach \"merv-page-goto\"","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:13.344Z","level":"INFO","name":"Merv","msg":"Click locator('[data-test=\"username\"]')","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:13.366Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:13.368Z","level":"INFO","name":"Merv","msg":"Playwright locator.click locator('[data-test=\"username\"]')","screenshot":"log/screenshots/log-2026-09-09T14-18-13-367Z.png","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:13.387Z","level":"INFO","name":"Merv","msg":"Attach \"merv-loc-click\"","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:13.409Z","level":"INFO","name":"Merv","msg":"Playwright locator.fill locator('[data-test=\"username\"]') → \"\"","screenshot":"log/screenshots/log-2026-09-09T14-18-13-408Z.png","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:13.415Z","level":"INFO","name":"Merv","msg":"Fill \"\" locator('[data-test=\"username\"]')","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:13.439Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:13.461Z","level":"INFO","name":"Merv","msg":"Attach \"merv-loc-fill\"","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:13.499Z","level":"INFO","name":"Merv","msg":"Click locator('[data-test=\"password\"]')","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:13.523Z","level":"INFO","name":"Merv","msg":"Playwright locator.click locator('[data-test=\"password\"]')","screenshot":"log/screenshots/log-2026-09-09T14-18-13-522Z.png","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:13.532Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:13.554Z","level":"INFO","name":"Merv","msg":"Playwright locator.fill locator('[data-test=\"password\"]') → \"\"","screenshot":"log/screenshots/log-2026-09-09T14-18-13-554Z.png","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:13.558Z","level":"INFO","name":"Merv","msg":"Attach \"merv-loc-click\"","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:13.571Z","level":"INFO","name":"Merv","msg":"Fill \"\" locator('[data-test=\"password\"]')","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:13.589Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:13.612Z","level":"INFO","name":"Merv","msg":"Attach \"merv-loc-fill\"","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:13.628Z","level":"INFO","name":"Merv","msg":"Click locator('[data-test=\"login-button\"]')","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:13.634Z","level":"INFO","name":"Merv","msg":"Playwright locator.click locator('[data-test=\"login-button\"]')","screenshot":"log/screenshots/log-2026-09-09T14-18-13-633Z.png","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:13.646Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:13.663Z","level":"INFO","name":"Merv","msg":"Attach \"merv-loc-click\"","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:13.666Z","level":"INFO","name":"Merv","msg":"Hook: page teardown — demo","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:13.723Z","level":"INFO","name":"Merv","msg":"Hook: test end — demo","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:13.734Z","level":"INFO","name":"Merv","msg":"After Hooks › Fixture \"context\" › Close context","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:13.786Z","level":"INFO","name":"Merv","msg":"Test finished —  › chromium › example.spec.js › demo (PASSED)","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:40.760Z","level":"INFO","name":"Merv","msg":"Suite started — playwright-aug-2026","suite":"playwright-aug-2026"}
+{"ts":"2026-09-09T14:18:41.119Z","level":"INFO","name":"Merv","msg":"Hook: test start — demo"}
+{"ts":"2026-09-09T14:18:42.034Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"browser\" › Launch browser","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:42.115Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"context\" › Create context","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:42.734Z","level":"INFO","name":"Merv","msg":"Hook: page setup — demo","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:42.734Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"page\" › Create page","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:43.052Z","level":"INFO","name":"Merv","msg":"Navigate to \"/\"","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:43.793Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:43.794Z","level":"INFO","name":"Merv","msg":"Playwright page.goto \"https://www.saucedemo.com/\"","screenshot":"log/screenshots/log-2026-09-09T14-18-43-794Z.png","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:43.809Z","level":"INFO","name":"Merv","msg":"Attach \"merv-page-goto\"","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:43.861Z","level":"INFO","name":"Merv","msg":"Click locator('[data-test=\"username\"]')","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:43.906Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:43.910Z","level":"INFO","name":"Merv","msg":"Playwright locator.click locator('[data-test=\"username\"]')","screenshot":"log/screenshots/log-2026-09-09T14-18-43-906Z.png","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:43.928Z","level":"INFO","name":"Merv","msg":"Attach \"merv-loc-click\"","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:43.948Z","level":"INFO","name":"Merv","msg":"Fill \"\" locator('[data-test=\"username\"]')","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:43.966Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:43.967Z","level":"INFO","name":"Merv","msg":"Playwright locator.fill locator('[data-test=\"username\"]') → \"\"","screenshot":"log/screenshots/log-2026-09-09T14-18-43-967Z.png","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:43.982Z","level":"INFO","name":"Merv","msg":"Attach \"merv-loc-fill\"","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:44.041Z","level":"INFO","name":"Merv","msg":"Click locator('[data-test=\"password\"]')","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:44.082Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:44.082Z","level":"INFO","name":"Merv","msg":"Playwright locator.click locator('[data-test=\"password\"]')","screenshot":"log/screenshots/log-2026-09-09T14-18-44-082Z.png","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:44.097Z","level":"INFO","name":"Merv","msg":"Attach \"merv-loc-click\"","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:44.114Z","level":"INFO","name":"Merv","msg":"Fill \"\" locator('[data-test=\"password\"]')","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:44.132Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:44.133Z","level":"INFO","name":"Merv","msg":"Playwright locator.fill locator('[data-test=\"password\"]') → \"\"","screenshot":"log/screenshots/log-2026-09-09T14-18-44-132Z.png","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:44.156Z","level":"INFO","name":"Merv","msg":"Attach \"merv-loc-fill\"","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:44.191Z","level":"INFO","name":"Merv","msg":"Click locator('[data-test=\"login-button\"]')","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:44.233Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:44.233Z","level":"INFO","name":"Merv","msg":"Playwright locator.click locator('[data-test=\"login-button\"]')","screenshot":"log/screenshots/log-2026-09-09T14-18-44-233Z.png","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:44.265Z","level":"INFO","name":"Merv","msg":"Attach \"merv-loc-click\"","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:44.292Z","level":"INFO","name":"Merv","msg":"Hook: page teardown — demo","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:44.360Z","level":"INFO","name":"Merv","msg":"After Hooks › Fixture \"context\" › Close context","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:44.360Z","level":"INFO","name":"Merv","msg":"Hook: test end — demo","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:18:44.442Z","level":"INFO","name":"Merv","msg":"Test finished —  › chromium › example.spec.js › demo (PASSED)","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:35.735Z","level":"INFO","name":"Merv","msg":"Suite started — playwright-aug-2026","suite":"playwright-aug-2026"}
+{"ts":"2026-09-09T14:19:36.111Z","level":"INFO","name":"Merv","msg":"Hook: test start — demo"}
+{"ts":"2026-09-09T14:19:36.881Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"browser\" › Launch browser","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:36.923Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"context\" › Create context","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:37.356Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"page\" › Create page","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:37.356Z","level":"INFO","name":"Merv","msg":"Hook: page setup — demo","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:37.909Z","level":"INFO","name":"Merv","msg":"Navigate to \"/\"","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:38.084Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:38.085Z","level":"INFO","name":"Merv","msg":"Playwright page.goto \"https://www.saucedemo.com/\"","screenshot":"log/screenshots/log-2026-09-09T14-19-38-085Z.png","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:38.107Z","level":"INFO","name":"Merv","msg":"Attach \"merv-page-goto\"","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:38.176Z","level":"INFO","name":"Merv","msg":"Click locator('[data-test=\"username\"]')","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:38.235Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:38.235Z","level":"INFO","name":"Merv","msg":"Playwright locator.click locator('[data-test=\"username\"]')","screenshot":"log/screenshots/log-2026-09-09T14-19-38-234Z.png","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:38.258Z","level":"INFO","name":"Merv","msg":"Attach \"merv-loc-click\"","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:38.278Z","level":"INFO","name":"Merv","msg":"Fill \"\" locator('[data-test=\"username\"]')","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:38.283Z","level":"INFO","name":"Merv","msg":"Playwright locator.fill locator('[data-test=\"username\"]') → \"\"","screenshot":"log/screenshots/log-2026-09-09T14-19-38-283Z.png","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:38.295Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:38.312Z","level":"INFO","name":"Merv","msg":"Attach \"merv-loc-fill\"","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:38.327Z","level":"INFO","name":"Merv","msg":"Click locator('[data-test=\"password\"]')","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:38.366Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:38.367Z","level":"INFO","name":"Merv","msg":"Playwright locator.click locator('[data-test=\"password\"]')","screenshot":"log/screenshots/log-2026-09-09T14-19-38-367Z.png","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:38.388Z","level":"INFO","name":"Merv","msg":"Attach \"merv-loc-click\"","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:38.401Z","level":"INFO","name":"Merv","msg":"Fill \"\" locator('[data-test=\"password\"]')","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:38.417Z","level":"INFO","name":"Merv","msg":"Playwright locator.fill locator('[data-test=\"password\"]') → \"\"","screenshot":"log/screenshots/log-2026-09-09T14-19-38-417Z.png","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:38.421Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:38.434Z","level":"INFO","name":"Merv","msg":"Attach \"merv-loc-fill\"","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:38.465Z","level":"INFO","name":"Merv","msg":"Click locator('[data-test=\"login-button\"]')","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:38.499Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:38.499Z","level":"INFO","name":"Merv","msg":"Playwright locator.click locator('[data-test=\"login-button\"]')","screenshot":"log/screenshots/log-2026-09-09T14-19-38-499Z.png","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:38.516Z","level":"INFO","name":"Merv","msg":"Attach \"merv-loc-click\"","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:38.529Z","level":"INFO","name":"Merv","msg":"Expect \"toBe\"","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:38.551Z","level":"INFO","name":"Merv","msg":"Hook: page teardown — demo","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:38.608Z","level":"INFO","name":"Merv","msg":"After Hooks › Fixture \"context\" › Close context","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:38.611Z","level":"INFO","name":"Merv","msg":"Hook: test end — demo","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:38.709Z","level":"INFO","name":"Merv","msg":"Test finished —  › chromium › example.spec.js › demo (PASSED)","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:50.417Z","level":"INFO","name":"Merv","msg":"Suite started — playwright-aug-2026","suite":"playwright-aug-2026"}
+{"ts":"2026-09-09T14:19:50.806Z","level":"INFO","name":"Merv","msg":"Hook: test start — demo"}
+{"ts":"2026-09-09T14:19:51.461Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"browser\" › Launch browser","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:51.496Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"context\" › Create context","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:51.930Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"page\" › Create page","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:51.932Z","level":"INFO","name":"Merv","msg":"Hook: page setup — demo","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:52.240Z","level":"INFO","name":"Merv","msg":"Navigate to \"/\"","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:52.384Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:52.385Z","level":"INFO","name":"Merv","msg":"Playwright page.goto \"https://www.saucedemo.com/\"","screenshot":"log/screenshots/log-2026-09-09T14-19-52-384Z.png","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:52.401Z","level":"INFO","name":"Merv","msg":"Attach \"merv-page-goto\"","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:52.449Z","level":"INFO","name":"Merv","msg":"Click locator('[data-test=\"username\"]')","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:52.484Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:52.484Z","level":"INFO","name":"Merv","msg":"Playwright locator.click locator('[data-test=\"username\"]')","screenshot":"log/screenshots/log-2026-09-09T14-19-52-484Z.png","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:52.508Z","level":"INFO","name":"Merv","msg":"Attach \"merv-loc-click\"","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:52.525Z","level":"INFO","name":"Merv","msg":"Fill \"\" locator('[data-test=\"username\"]')","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:52.534Z","level":"INFO","name":"Merv","msg":"Playwright locator.fill locator('[data-test=\"username\"]') → \"\"","screenshot":"log/screenshots/log-2026-09-09T14-19-52-534Z.png","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:52.545Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:52.564Z","level":"INFO","name":"Merv","msg":"Attach \"merv-loc-fill\"","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:52.606Z","level":"INFO","name":"Merv","msg":"Click locator('[data-test=\"password\"]')","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:52.649Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:52.650Z","level":"INFO","name":"Merv","msg":"Playwright locator.click locator('[data-test=\"password\"]')","screenshot":"log/screenshots/log-2026-09-09T14-19-52-650Z.png","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:52.668Z","level":"INFO","name":"Merv","msg":"Attach \"merv-loc-click\"","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:52.684Z","level":"INFO","name":"Merv","msg":"Fill \"\" locator('[data-test=\"password\"]')","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:52.701Z","level":"INFO","name":"Merv","msg":"Playwright locator.fill locator('[data-test=\"password\"]') → \"\"","screenshot":"log/screenshots/log-2026-09-09T14-19-52-701Z.png","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:52.704Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:52.721Z","level":"INFO","name":"Merv","msg":"Attach \"merv-loc-fill\"","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:52.748Z","level":"INFO","name":"Merv","msg":"Click locator('[data-test=\"login-button\"]')","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:52.783Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:52.783Z","level":"INFO","name":"Merv","msg":"Playwright locator.click locator('[data-test=\"login-button\"]')","screenshot":"log/screenshots/log-2026-09-09T14-19-52-783Z.png","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:52.802Z","level":"INFO","name":"Merv","msg":"Attach \"merv-loc-click\"","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:52.820Z","level":"ERROR","name":"Merv","msg":"Expect \"toBe\"","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:52.843Z","level":"INFO","name":"Merv","msg":"Hook: page teardown — demo","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:52.909Z","level":"INFO","name":"Merv","msg":"After Hooks › Fixture \"context\" › Close context","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:52.911Z","level":"INFO","name":"Merv","msg":"Hook: test end — demo","suite":"playwright-aug-2026","testcase":"example.spec.js › demo"}
+{"ts":"2026-09-09T14:19:53.051Z","level":"ERROR","name":"Merv","msg":"Test finished —  › chromium › example.spec.js › demo (FAILED)","suite":"playwright-aug-2026","testcase":"› chromium › example.spec.js › demo"}

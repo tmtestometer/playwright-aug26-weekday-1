@@ -1,0 +1,529 @@
+{
+  "version": "1.0",
+  "running": false,
+  "lastActivityMillis": 1788964645818,
+  "exportDate": "Wed Sep 09 2026 20:07:25 GMT+0530 (India Standard Time)",
+  "testSuite": {
+    "title": "playwright-aug-2026",
+    "startTime": "2026-09-09T14:37:20.645Z",
+    "endTime": "2026-09-09T14:37:25.818Z",
+    "testCases": [
+      {
+        "testcaseName": " › chromium › example.spec.js › verify user able to check errormsg for empty credentials",
+        "status": "PASSED",
+        "failureReason": null,
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-09T14:37:21.161Z",
+        "endTime": "2026-09-09T14:37:23.173Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:21.212Z",
+            "endTime": "2026-09-09T14:37:21.724Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:21.729Z",
+            "endTime": "2026-09-09T14:37:21.769Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:21.771Z",
+            "endTime": "2026-09-09T14:37:22.166Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:22.182Z",
+            "endTime": "2026-09-09T14:37:22.616Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-1357d5f28067eb7f1236-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:22.842Z",
+            "endTime": "2026-09-09T14:37:22.939Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-1357d5f28067eb7f1236-step15-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"\" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:23.063Z",
+            "endTime": "2026-09-09T14:37:23.082Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-1357d5f28067eb7f1236-step18-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:23.125Z",
+            "endTime": "2026-09-09T14:37:23.227Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-1357d5f28067eb7f1236-step21-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"\" locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:23.312Z",
+            "endTime": "2026-09-09T14:37:23.331Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-1357d5f28067eb7f1236-step24-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-button\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:23.386Z",
+            "endTime": "2026-09-09T14:37:23.496Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-1357d5f28067eb7f1236-step27-0.png"
+            ]
+          },
+          {
+            "teststepName": "Expect \"toBe\"",
+            "stepType": "EXPECT",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:23.583Z",
+            "endTime": "2026-09-09T14:37:23.583Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:23.625Z",
+            "endTime": "2026-09-09T14:37:23.730Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-1357d5f28067eb7f1236-att0.png"
+            ]
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-1357d5f28067eb7f1236-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › verify user able to check errormsg for empty password",
+        "status": "PASSED",
+        "failureReason": null,
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-09T14:37:21.182Z",
+        "endTime": "2026-09-09T14:37:23.135Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:21.221Z",
+            "endTime": "2026-09-09T14:37:21.725Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:21.741Z",
+            "endTime": "2026-09-09T14:37:21.769Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:21.771Z",
+            "endTime": "2026-09-09T14:37:22.165Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:22.178Z",
+            "endTime": "2026-09-09T14:37:22.603Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-ef959d45a7219cfd7ca6-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:22.840Z",
+            "endTime": "2026-09-09T14:37:22.937Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-ef959d45a7219cfd7ca6-step15-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"user1\" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:23.053Z",
+            "endTime": "2026-09-09T14:37:23.087Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-ef959d45a7219cfd7ca6-step18-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:23.187Z",
+            "endTime": "2026-09-09T14:37:23.224Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-ef959d45a7219cfd7ca6-step21-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"\" locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:23.257Z",
+            "endTime": "2026-09-09T14:37:23.272Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-ef959d45a7219cfd7ca6-step24-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-button\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:23.325Z",
+            "endTime": "2026-09-09T14:37:23.386Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-ef959d45a7219cfd7ca6-step27-0.png"
+            ]
+          },
+          {
+            "teststepName": "Expect \"toBe\"",
+            "stepType": "EXPECT",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:23.470Z",
+            "endTime": "2026-09-09T14:37:23.472Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:23.561Z",
+            "endTime": "2026-09-09T14:37:23.682Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-ef959d45a7219cfd7ca6-att0.png"
+            ]
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-ef959d45a7219cfd7ca6-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › verify user able to check errormsg for wrong credentials",
+        "status": "PASSED",
+        "failureReason": null,
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-09T14:37:21.209Z",
+        "endTime": "2026-09-09T14:37:23.200Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:21.311Z",
+            "endTime": "2026-09-09T14:37:21.723Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:21.740Z",
+            "endTime": "2026-09-09T14:37:21.770Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:21.772Z",
+            "endTime": "2026-09-09T14:37:22.167Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:22.179Z",
+            "endTime": "2026-09-09T14:37:22.618Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-ebe63cda4849d597ae00-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:22.849Z",
+            "endTime": "2026-09-09T14:37:22.960Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-ebe63cda4849d597ae00-step15-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"asdfasdf\" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:23.045Z",
+            "endTime": "2026-09-09T14:37:23.076Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-ebe63cda4849d597ae00-step18-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:23.169Z",
+            "endTime": "2026-09-09T14:37:23.213Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-ebe63cda4849d597ae00-step21-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"adsfdsaf\" locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:23.257Z",
+            "endTime": "2026-09-09T14:37:23.282Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-ebe63cda4849d597ae00-step24-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-button\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:23.328Z",
+            "endTime": "2026-09-09T14:37:23.396Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-ebe63cda4849d597ae00-step27-0.png"
+            ]
+          },
+          {
+            "teststepName": "Expect \"toBe\"",
+            "stepType": "EXPECT",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:23.471Z",
+            "endTime": "2026-09-09T14:37:23.472Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:23.567Z",
+            "endTime": "2026-09-09T14:37:23.692Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-ebe63cda4849d597ae00-att0.png"
+            ]
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-ebe63cda4849d597ae00-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › verify user able to check errormsg for empty username",
+        "status": "PASSED",
+        "failureReason": null,
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-09T14:37:21.221Z",
+        "endTime": "2026-09-09T14:37:23.201Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:21.322Z",
+            "endTime": "2026-09-09T14:37:21.723Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:21.729Z",
+            "endTime": "2026-09-09T14:37:21.769Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:21.771Z",
+            "endTime": "2026-09-09T14:37:22.171Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:22.186Z",
+            "endTime": "2026-09-09T14:37:22.618Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-fa28ce2781abb3e168c3-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:22.853Z",
+            "endTime": "2026-09-09T14:37:22.966Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-fa28ce2781abb3e168c3-step15-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"\" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:23.044Z",
+            "endTime": "2026-09-09T14:37:23.068Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-fa28ce2781abb3e168c3-step18-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:23.097Z",
+            "endTime": "2026-09-09T14:37:23.212Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-fa28ce2781abb3e168c3-step21-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"ancd\" locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:23.276Z",
+            "endTime": "2026-09-09T14:37:23.298Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-fa28ce2781abb3e168c3-step24-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-button\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:23.358Z",
+            "endTime": "2026-09-09T14:37:23.439Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-fa28ce2781abb3e168c3-step27-0.png"
+            ]
+          },
+          {
+            "teststepName": "Expect \"toBe\"",
+            "stepType": "EXPECT",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:23.494Z",
+            "endTime": "2026-09-09T14:37:23.494Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-09T14:37:23.589Z",
+            "endTime": "2026-09-09T14:37:23.701Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-fa28ce2781abb3e168c3-att0.png"
+            ]
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-fa28ce2781abb3e168c3-video1.webm"
+        ]
+      }
+    ]
+  }
+}

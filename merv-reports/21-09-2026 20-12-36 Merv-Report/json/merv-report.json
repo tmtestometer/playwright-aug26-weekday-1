@@ -1,0 +1,53 @@
+{
+  "version": "1.0",
+  "running": false,
+  "lastActivityMillis": 1790001758057,
+  "exportDate": "Mon Sep 21 2026 20:12:38 GMT+0530 (India Standard Time)",
+  "testSuite": {
+    "title": "playwright-aug-2026",
+    "startTime": "2026-09-21T14:42:36.887Z",
+    "endTime": "2026-09-21T14:42:38.057Z",
+    "testCases": [
+      {
+        "testcaseName": " › chromium › api.spec.js › Api testing post",
+        "status": "PASSED",
+        "failureReason": null,
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-21T14:42:37.267Z",
+        "endTime": "2026-09-21T14:42:37.885Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › Fixture \"request\" › Create request context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-21T14:42:37.286Z",
+            "endTime": "2026-09-21T14:42:37.287Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "POST \"/objects\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-21T14:42:37.289Z",
+            "endTime": "2026-09-21T14:42:37.893Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Expect \"toBe\"",
+            "stepType": "EXPECT",
+            "status": "PASSED",
+            "startTime": "2026-09-21T14:42:37.895Z",
+            "endTime": "2026-09-21T14:42:37.895Z",
+            "errorMessage": null,
+            "screenshots": []
+          }
+        ]
+      }
+    ]
+  }
+}

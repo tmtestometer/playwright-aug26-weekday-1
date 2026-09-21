@@ -1,0 +1,309 @@
+{
+  "version": "1.0",
+  "exportDate": "Fri Sep 11 2026 20:11:20 GMT+0530 (India Standard Time)",
+  "suiteTitle": "playwright-aug-2026",
+  "running": false,
+  "failureCount": 25,
+  "failures": [
+    {
+      "testcaseName": "› chromium › example.spec.js › empty username and empty password",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: expect is not defined\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:9)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |         ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:40:35.105Z",
+      "endTime": "2026-09-11T14:40:37.367Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › empty username with random password",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: expect is not defined\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:9)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |         ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:40:35.115Z",
+      "endTime": "2026-09-11T14:40:37.334Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › empty username with valid password",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: expect is not defined\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:9)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |         ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:40:35.106Z",
+      "endTime": "2026-09-11T14:40:37.281Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › empty username with invalid password",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: expect is not defined\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:9)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |         ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:40:35.108Z",
+      "endTime": "2026-09-11T14:40:37.336Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › random username with empty password",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: expect is not defined\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:9)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |         ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:40:41.522Z",
+      "endTime": "2026-09-11T14:40:43.302Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › valid username with empty password",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: expect is not defined\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:9)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |         ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:40:41.525Z",
+      "endTime": "2026-09-11T14:40:43.033Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › invalid username with empty password",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: expect is not defined\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:9)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |         ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:40:41.532Z",
+      "endTime": "2026-09-11T14:40:43.209Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › invalid username with valid password",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: expect is not defined\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:9)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |         ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:40:41.533Z",
+      "endTime": "2026-09-11T14:40:43.214Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › random username with random password",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: expect is not defined\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:9)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |         ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:40:48.434Z",
+      "endTime": "2026-09-11T14:40:50.244Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › invalid username with invalid password",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: expect is not defined\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:9)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |         ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:40:48.436Z",
+      "endTime": "2026-09-11T14:40:50.144Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › valid username with invalid password",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: expect is not defined\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:9)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |         ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:40:48.437Z",
+      "endTime": "2026-09-11T14:40:50.171Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › username with leading spaces",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: expect is not defined\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:9)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |         ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:40:48.493Z",
+      "endTime": "2026-09-11T14:40:50.225Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › username with trailing spaces",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: expect is not defined\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:9)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |         ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:40:55.309Z",
+      "endTime": "2026-09-11T14:40:57.064Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › password with leading spaces",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: expect is not defined\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:9)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |         ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:40:55.325Z",
+      "endTime": "2026-09-11T14:40:57.036Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › username with leading and trailing spaces",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: expect is not defined\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:9)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |         ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:40:55.328Z",
+      "endTime": "2026-09-11T14:40:57.069Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › password with trailing spaces",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: expect is not defined\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:9)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |         ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:40:55.394Z",
+      "endTime": "2026-09-11T14:40:57.223Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › special characters in password",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: expect is not defined\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:9)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |         ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:41:03.979Z",
+      "endTime": "2026-09-11T14:41:05.543Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › password with leading and trailing spaces",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: expect is not defined\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:9)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |         ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:41:03.982Z",
+      "endTime": "2026-09-11T14:41:05.603Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › special characters in username",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: expect is not defined\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:9)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |         ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:41:04.177Z",
+      "endTime": "2026-09-11T14:41:05.827Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › numeric username",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: expect is not defined\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:9)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |         ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:41:04.185Z",
+      "endTime": "2026-09-11T14:41:05.830Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › very long password",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: expect is not defined\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:9)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |\n  19 |     async validateErrorMsg(page, expectedErrorMsg){\n> 20 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n     |         ^\n  21 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n  22 |     }\n  23 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:41:11.254Z",
+      "endTime": "2026-09-11T14:41:13.036Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › very long username",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: expect is not defined\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:9)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |\n  19 |     async validateErrorMsg(page, expectedErrorMsg){\n> 20 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n     |         ^\n  21 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n  22 |     }\n  23 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:41:11.309Z",
+      "endTime": "2026-09-11T14:41:13.170Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › case sensitive username",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: expect is not defined\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:9)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |\n  19 |     async validateErrorMsg(page, expectedErrorMsg){\n> 20 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n     |         ^\n  21 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n  22 |     }\n  23 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:41:11.322Z",
+      "endTime": "2026-09-11T14:41:13.153Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › numeric password",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: expect is not defined\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:9)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |\n  19 |     async validateErrorMsg(page, expectedErrorMsg){\n> 20 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n     |         ^\n  21 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n  22 |     }\n  23 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:41:11.445Z",
+      "endTime": "2026-09-11T14:41:13.007Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › case sensitive password",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: expect is not defined\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:9)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |\n  19 |     async validateErrorMsg(page, expectedErrorMsg){\n> 20 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n     |         ^\n  21 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n  22 |     }\n  23 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:41:17.972Z",
+      "endTime": "2026-09-11T14:41:19.336Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    }
+  ]
+}

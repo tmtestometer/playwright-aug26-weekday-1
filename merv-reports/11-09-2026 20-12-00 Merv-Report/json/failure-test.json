@@ -1,0 +1,249 @@
+{
+  "version": "1.0",
+  "exportDate": "Fri Sep 11 2026 20:12:43 GMT+0530 (India Standard Time)",
+  "suiteTitle": "playwright-aug-2026",
+  "running": false,
+  "failureCount": 20,
+  "failures": [
+    {
+      "testcaseName": "› chromium › example.spec.js › empty username with random password",
+      "status": "FAILED",
+      "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:42:01.222Z",
+      "endTime": "2026-09-11T14:42:02.919Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › empty username and empty password",
+      "status": "FAILED",
+      "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:42:01.223Z",
+      "endTime": "2026-09-11T14:42:02.879Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › empty username with valid password",
+      "status": "FAILED",
+      "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:42:01.223Z",
+      "endTime": "2026-09-11T14:42:02.912Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › empty username with invalid password",
+      "status": "FAILED",
+      "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:42:01.230Z",
+      "endTime": "2026-09-11T14:42:02.907Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › valid username with empty password",
+      "status": "FAILED",
+      "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:42:07.217Z",
+      "endTime": "2026-09-11T14:42:10.318Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › random username with empty password",
+      "status": "FAILED",
+      "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:42:07.218Z",
+      "endTime": "2026-09-11T14:42:10.224Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › invalid username with valid password",
+      "status": "FAILED",
+      "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:42:07.219Z",
+      "endTime": "2026-09-11T14:42:10.346Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › invalid username with empty password",
+      "status": "FAILED",
+      "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:42:07.228Z",
+      "endTime": "2026-09-11T14:42:10.417Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › random username with random password",
+      "status": "FAILED",
+      "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:42:15.899Z",
+      "endTime": "2026-09-11T14:42:17.834Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › invalid username with invalid password",
+      "status": "FAILED",
+      "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:42:15.928Z",
+      "endTime": "2026-09-11T14:42:17.976Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › valid username with invalid password",
+      "status": "FAILED",
+      "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:42:15.922Z",
+      "endTime": "2026-09-11T14:42:17.929Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › username with leading spaces",
+      "status": "FAILED",
+      "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         this.expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:42:15.940Z",
+      "endTime": "2026-09-11T14:42:17.978Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › username with leading and trailing spaces",
+      "status": "FAILED",
+      "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:42:23.623Z",
+      "endTime": "2026-09-11T14:42:25.362Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › username with trailing spaces",
+      "status": "FAILED",
+      "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:42:23.627Z",
+      "endTime": "2026-09-11T14:42:25.318Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › password with leading spaces",
+      "status": "FAILED",
+      "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:42:23.627Z",
+      "endTime": "2026-09-11T14:42:25.321Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › password with trailing spaces",
+      "status": "FAILED",
+      "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:42:23.676Z",
+      "endTime": "2026-09-11T14:42:25.299Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › special characters in username",
+      "status": "FAILED",
+      "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:42:30.851Z",
+      "endTime": "2026-09-11T14:42:32.378Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › special characters in password",
+      "status": "FAILED",
+      "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:42:30.869Z",
+      "endTime": "2026-09-11T14:42:32.363Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › password with leading and trailing spaces",
+      "status": "FAILED",
+      "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:42:30.893Z",
+      "endTime": "2026-09-11T14:42:32.412Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › numeric username",
+      "status": "FAILED",
+      "failureReason": "Script failure: TypeError: this.expect is not a function\n    at LoginPage.validateErrorMsg (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/pages/login_page.js:20:14)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:12:5\n\nat ../pages/login_page.js:20\n\n  18 |     async validateErrorMsg(page, expectedErrorMsg){\n  19 |         let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 20 |         expect(errorMsg).toBe(expectedErrorMsg);\n     |              ^\n  21 |     }\n  22 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:42:30.938Z",
+      "endTime": "2026-09-11T14:42:32.420Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    }
+  ]
+}

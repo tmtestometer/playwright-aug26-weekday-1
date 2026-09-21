@@ -1,4 +1,27 @@
 {
-  "generatedAtMillis": 1788187706781,
-  "failureReasons": []
+  "generatedAtMillis": 1790002252583,
+  "failureReasons": [
+    {
+      "reason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"Epic sadface: Username is required1\"\nReceived: \"Epic sadface: Username is required\"\n\n10 |   await page.locator('[data-test=\"login-button\"]').click();\n  11 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n> 12 |   expect(errorMsg).toBe(\"Epic sadface: Username is required1\")\n     |                    ^\n  13 | });\n  14 |\n  15 |",
+      "count": 1,
+      "testcases": [
+        {
+          "testcaseName": "› chromium › example.spec.js › demo",
+          "runFolder": "09-09-2026 19-49-50 Merv-Report",
+          "runTimestampMillis": 1788963593092.8938
+        }
+      ]
+    },
+    {
+      "reason": "Script failure: Test timeout of 30000ms exceeded.\n\nError: locator.textContent: Test timeout of 30000ms exceeded.",
+      "count": 1,
+      "testcases": [
+        {
+          "testcaseName": "› chromium › example.spec.js › valid username with valid password",
+          "runFolder": "09-09-2026 20-08-23 Merv-Report",
+          "runTimestampMillis": 1788964740796.4807
+        }
+      ]
+    }
+  ]
 }

@@ -1,0 +1,1863 @@
+{
+  "version": "1.0",
+  "running": false,
+  "lastActivityMillis": 1789137566116,
+  "exportDate": "Fri Sep 11 2026 20:09:26 GMT+0530 (India Standard Time)",
+  "testSuite": {
+    "title": "playwright-aug-2026",
+    "startTime": "2026-09-11T14:38:57.727Z",
+    "endTime": "2026-09-11T14:39:26.116Z",
+    "testCases": [
+      {
+        "testcaseName": " › chromium › example.spec.js › empty username with valid password",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:38:58.416Z",
+        "endTime": "2026-09-11T14:38:59.810Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:58.510Z",
+            "endTime": "2026-09-11T14:38:58.882Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:58.888Z",
+            "endTime": "2026-09-11T14:38:58.914Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:58.917Z",
+            "endTime": "2026-09-11T14:38:59.290Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:59.293Z",
+            "endTime": "2026-09-11T14:38:59.757Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-459969ef38c7406aaf62-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:00.177Z",
+            "endTime": "2026-09-11T14:39:00.266Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-459969ef38c7406aaf62-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "actual": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "startTime": "2026-09-11T14:38:58.416Z",
+            "endTime": "2026-09-11T14:38:59.810Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-459969ef38c7406aaf62-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › empty username with invalid password",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:38:58.415Z",
+        "endTime": "2026-09-11T14:38:59.821Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:58.503Z",
+            "endTime": "2026-09-11T14:38:58.878Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:58.881Z",
+            "endTime": "2026-09-11T14:38:58.898Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:58.902Z",
+            "endTime": "2026-09-11T14:38:59.289Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:59.292Z",
+            "endTime": "2026-09-11T14:38:59.759Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-e5519961992ac78d8682-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:00.147Z",
+            "endTime": "2026-09-11T14:39:00.276Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-e5519961992ac78d8682-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "actual": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "startTime": "2026-09-11T14:38:58.415Z",
+            "endTime": "2026-09-11T14:38:59.821Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-e5519961992ac78d8682-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › empty username and empty password",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:38:58.418Z",
+        "endTime": "2026-09-11T14:38:59.812Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:58.522Z",
+            "endTime": "2026-09-11T14:38:58.877Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:58.893Z",
+            "endTime": "2026-09-11T14:38:58.914Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:58.918Z",
+            "endTime": "2026-09-11T14:38:59.290Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:59.298Z",
+            "endTime": "2026-09-11T14:38:59.756Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-fd26e6f9e91e19a0d713-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:00.141Z",
+            "endTime": "2026-09-11T14:39:00.252Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-fd26e6f9e91e19a0d713-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "actual": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "startTime": "2026-09-11T14:38:58.418Z",
+            "endTime": "2026-09-11T14:38:59.812Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-fd26e6f9e91e19a0d713-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › empty username with random password",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:38:58.418Z",
+        "endTime": "2026-09-11T14:38:59.882Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:58.518Z",
+            "endTime": "2026-09-11T14:38:58.876Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:58.883Z",
+            "endTime": "2026-09-11T14:38:58.903Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:58.906Z",
+            "endTime": "2026-09-11T14:38:59.289Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:38:59.293Z",
+            "endTime": "2026-09-11T14:38:59.757Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0fee69f2f9669dcb950-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:00.188Z",
+            "endTime": "2026-09-11T14:39:00.336Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0fee69f2f9669dcb950-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "actual": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "startTime": "2026-09-11T14:38:58.418Z",
+            "endTime": "2026-09-11T14:38:59.882Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-c0fee69f2f9669dcb950-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › invalid username with empty password",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:39:02.592Z",
+        "endTime": "2026-09-11T14:39:03.383Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:02.626Z",
+            "endTime": "2026-09-11T14:39:02.885Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:02.893Z",
+            "endTime": "2026-09-11T14:39:02.912Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:02.915Z",
+            "endTime": "2026-09-11T14:39:03.082Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:03.089Z",
+            "endTime": "2026-09-11T14:39:03.348Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0cb69243b9ebf2199ce-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:03.598Z",
+            "endTime": "2026-09-11T14:39:03.679Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0cb69243b9ebf2199ce-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "actual": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "startTime": "2026-09-11T14:39:02.592Z",
+            "endTime": "2026-09-11T14:39:03.383Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-c0cb69243b9ebf2199ce-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › invalid username with valid password",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:39:02.608Z",
+        "endTime": "2026-09-11T14:39:03.404Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:02.650Z",
+            "endTime": "2026-09-11T14:39:02.900Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:02.909Z",
+            "endTime": "2026-09-11T14:39:02.916Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:02.921Z",
+            "endTime": "2026-09-11T14:39:03.083Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:03.088Z",
+            "endTime": "2026-09-11T14:39:03.335Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-861c5ce2bb9bf363a5d0-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:03.580Z",
+            "endTime": "2026-09-11T14:39:03.694Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-861c5ce2bb9bf363a5d0-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "actual": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "startTime": "2026-09-11T14:39:02.608Z",
+            "endTime": "2026-09-11T14:39:03.404Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-861c5ce2bb9bf363a5d0-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › random username with empty password",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:39:02.597Z",
+        "endTime": "2026-09-11T14:39:03.314Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:02.642Z",
+            "endTime": "2026-09-11T14:39:02.997Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:03.008Z",
+            "endTime": "2026-09-11T14:39:03.045Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:03.049Z",
+            "endTime": "2026-09-11T14:39:03.162Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:03.167Z",
+            "endTime": "2026-09-11T14:39:03.456Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-43bfd2b015ba5cc459d4-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:03.622Z",
+            "endTime": "2026-09-11T14:39:03.710Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-43bfd2b015ba5cc459d4-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "actual": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "startTime": "2026-09-11T14:39:02.597Z",
+            "endTime": "2026-09-11T14:39:03.314Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-43bfd2b015ba5cc459d4-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › valid username with empty password",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:39:02.610Z",
+        "endTime": "2026-09-11T14:39:03.309Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:02.658Z",
+            "endTime": "2026-09-11T14:39:03.047Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:03.053Z",
+            "endTime": "2026-09-11T14:39:03.072Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:03.076Z",
+            "endTime": "2026-09-11T14:39:03.165Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:03.170Z",
+            "endTime": "2026-09-11T14:39:03.445Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-a28ecd4b714f588fe6ef-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:03.626Z",
+            "endTime": "2026-09-11T14:39:03.743Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-a28ecd4b714f588fe6ef-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "actual": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "startTime": "2026-09-11T14:39:02.610Z",
+            "endTime": "2026-09-11T14:39:03.309Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-a28ecd4b714f588fe6ef-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › random username with random password",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:39:07.535Z",
+        "endTime": "2026-09-11T14:39:08.448Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:07.578Z",
+            "endTime": "2026-09-11T14:39:07.829Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:07.837Z",
+            "endTime": "2026-09-11T14:39:07.948Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:07.954Z",
+            "endTime": "2026-09-11T14:39:08.145Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:08.166Z",
+            "endTime": "2026-09-11T14:39:08.464Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-46fcfb7dc4d8a4a1880e-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:08.667Z",
+            "endTime": "2026-09-11T14:39:08.737Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-46fcfb7dc4d8a4a1880e-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "actual": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "startTime": "2026-09-11T14:39:07.535Z",
+            "endTime": "2026-09-11T14:39:08.448Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-46fcfb7dc4d8a4a1880e-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › invalid username with invalid password",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:39:07.547Z",
+        "endTime": "2026-09-11T14:39:08.404Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:07.598Z",
+            "endTime": "2026-09-11T14:39:07.893Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:07.937Z",
+            "endTime": "2026-09-11T14:39:08.005Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:08.011Z",
+            "endTime": "2026-09-11T14:39:08.167Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:08.178Z",
+            "endTime": "2026-09-11T14:39:08.426Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-1842aec6f0bbaa769337-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:08.681Z",
+            "endTime": "2026-09-11T14:39:08.759Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-1842aec6f0bbaa769337-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "actual": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "startTime": "2026-09-11T14:39:07.547Z",
+            "endTime": "2026-09-11T14:39:08.404Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-1842aec6f0bbaa769337-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › username with leading spaces",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:39:07.540Z",
+        "endTime": "2026-09-11T14:39:08.560Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:07.590Z",
+            "endTime": "2026-09-11T14:39:07.819Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:07.829Z",
+            "endTime": "2026-09-11T14:39:07.900Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:07.903Z",
+            "endTime": "2026-09-11T14:39:08.099Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:08.106Z",
+            "endTime": "2026-09-11T14:39:08.371Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-f89e3a61f9b4f4401ece-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:08.678Z",
+            "endTime": "2026-09-11T14:39:08.833Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-f89e3a61f9b4f4401ece-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "actual": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "startTime": "2026-09-11T14:39:07.540Z",
+            "endTime": "2026-09-11T14:39:08.560Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-f89e3a61f9b4f4401ece-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › valid username with invalid password",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:39:07.564Z",
+        "endTime": "2026-09-11T14:39:08.587Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:07.633Z",
+            "endTime": "2026-09-11T14:39:07.830Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:07.842Z",
+            "endTime": "2026-09-11T14:39:07.871Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:07.873Z",
+            "endTime": "2026-09-11T14:39:08.100Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:08.105Z",
+            "endTime": "2026-09-11T14:39:08.360Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-4a2846b61324dcc86d72-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:08.666Z",
+            "endTime": "2026-09-11T14:39:08.842Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-4a2846b61324dcc86d72-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "actual": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "startTime": "2026-09-11T14:39:07.564Z",
+            "endTime": "2026-09-11T14:39:08.587Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-4a2846b61324dcc86d72-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › password with trailing spaces",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:39:12.174Z",
+        "endTime": "2026-09-11T14:39:12.966Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:12.232Z",
+            "endTime": "2026-09-11T14:39:12.513Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:12.518Z",
+            "endTime": "2026-09-11T14:39:12.526Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:12.529Z",
+            "endTime": "2026-09-11T14:39:12.680Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:12.690Z",
+            "endTime": "2026-09-11T14:39:12.944Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0b96e78df24be50ae79-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:13.218Z",
+            "endTime": "2026-09-11T14:39:13.295Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0b96e78df24be50ae79-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "actual": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "startTime": "2026-09-11T14:39:12.174Z",
+            "endTime": "2026-09-11T14:39:12.966Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-c0b96e78df24be50ae79-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › username with trailing spaces",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:39:12.177Z",
+        "endTime": "2026-09-11T14:39:13.058Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:12.224Z",
+            "endTime": "2026-09-11T14:39:12.459Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:12.496Z",
+            "endTime": "2026-09-11T14:39:12.555Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:12.617Z",
+            "endTime": "2026-09-11T14:39:12.733Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:12.741Z",
+            "endTime": "2026-09-11T14:39:13.052Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-2b81755de0eec14d3792-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:13.249Z",
+            "endTime": "2026-09-11T14:39:13.334Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-2b81755de0eec14d3792-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "actual": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "startTime": "2026-09-11T14:39:12.177Z",
+            "endTime": "2026-09-11T14:39:13.058Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-2b81755de0eec14d3792-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › username with leading and trailing spaces",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:39:12.179Z",
+        "endTime": "2026-09-11T14:39:12.971Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:12.217Z",
+            "endTime": "2026-09-11T14:39:12.551Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:12.558Z",
+            "endTime": "2026-09-11T14:39:12.621Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:12.623Z",
+            "endTime": "2026-09-11T14:39:12.736Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:12.740Z",
+            "endTime": "2026-09-11T14:39:13.052Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-d43b4d8e4b9ad860c340-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:13.250Z",
+            "endTime": "2026-09-11T14:39:13.335Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-d43b4d8e4b9ad860c340-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "actual": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "startTime": "2026-09-11T14:39:12.179Z",
+            "endTime": "2026-09-11T14:39:12.971Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-d43b4d8e4b9ad860c340-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › password with leading spaces",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:39:12.219Z",
+        "endTime": "2026-09-11T14:39:13.127Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:12.281Z",
+            "endTime": "2026-09-11T14:39:12.463Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:12.467Z",
+            "endTime": "2026-09-11T14:39:12.649Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:12.651Z",
+            "endTime": "2026-09-11T14:39:12.772Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:12.775Z",
+            "endTime": "2026-09-11T14:39:13.052Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-e3dd959e525090c89d7c-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:13.265Z",
+            "endTime": "2026-09-11T14:39:13.362Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-e3dd959e525090c89d7c-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "actual": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "startTime": "2026-09-11T14:39:12.219Z",
+            "endTime": "2026-09-11T14:39:13.127Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-e3dd959e525090c89d7c-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › special characters in password",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:39:15.794Z",
+        "endTime": "2026-09-11T14:39:16.454Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:15.857Z",
+            "endTime": "2026-09-11T14:39:16.384Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:16.391Z",
+            "endTime": "2026-09-11T14:39:16.419Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:16.422Z",
+            "endTime": "2026-09-11T14:39:16.495Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:16.498Z",
+            "endTime": "2026-09-11T14:39:16.747Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-971ae8a39e501365122f-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:16.937Z",
+            "endTime": "2026-09-11T14:39:17.032Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-971ae8a39e501365122f-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "actual": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "startTime": "2026-09-11T14:39:15.794Z",
+            "endTime": "2026-09-11T14:39:16.454Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-971ae8a39e501365122f-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › password with leading and trailing spaces",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:39:15.795Z",
+        "endTime": "2026-09-11T14:39:16.673Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:15.854Z",
+            "endTime": "2026-09-11T14:39:16.120Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:16.123Z",
+            "endTime": "2026-09-11T14:39:16.136Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:16.141Z",
+            "endTime": "2026-09-11T14:39:16.378Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:16.393Z",
+            "endTime": "2026-09-11T14:39:16.644Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c6a87ac00e5857c8d02b-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:16.914Z",
+            "endTime": "2026-09-11T14:39:16.999Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c6a87ac00e5857c8d02b-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "actual": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "startTime": "2026-09-11T14:39:15.795Z",
+            "endTime": "2026-09-11T14:39:16.673Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-c6a87ac00e5857c8d02b-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › numeric username",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:39:15.796Z",
+        "endTime": "2026-09-11T14:39:16.682Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:15.852Z",
+            "endTime": "2026-09-11T14:39:16.127Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:16.152Z",
+            "endTime": "2026-09-11T14:39:16.162Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:16.164Z",
+            "endTime": "2026-09-11T14:39:16.337Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:16.345Z",
+            "endTime": "2026-09-11T14:39:16.634Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-101ecb6fd3db196878ec-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:16.904Z",
+            "endTime": "2026-09-11T14:39:16.996Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-101ecb6fd3db196878ec-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "actual": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "startTime": "2026-09-11T14:39:15.796Z",
+            "endTime": "2026-09-11T14:39:16.682Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-101ecb6fd3db196878ec-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › special characters in username",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:39:15.796Z",
+        "endTime": "2026-09-11T14:39:16.630Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:15.860Z",
+            "endTime": "2026-09-11T14:39:16.172Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:16.180Z",
+            "endTime": "2026-09-11T14:39:16.188Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:16.192Z",
+            "endTime": "2026-09-11T14:39:16.388Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:16.404Z",
+            "endTime": "2026-09-11T14:39:16.655Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-5c3c534a45bc0a5480c7-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:16.928Z",
+            "endTime": "2026-09-11T14:39:16.999Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-5c3c534a45bc0a5480c7-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "actual": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "startTime": "2026-09-11T14:39:15.796Z",
+            "endTime": "2026-09-11T14:39:16.630Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-5c3c534a45bc0a5480c7-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › very long password",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:39:21.012Z",
+        "endTime": "2026-09-11T14:39:22.337Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:21.082Z",
+            "endTime": "2026-09-11T14:39:21.431Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:21.447Z",
+            "endTime": "2026-09-11T14:39:21.465Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:21.468Z",
+            "endTime": "2026-09-11T14:39:21.650Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:21.655Z",
+            "endTime": "2026-09-11T14:39:22.260Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-2fde73b5025591d33ff6-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:22.644Z",
+            "endTime": "2026-09-11T14:39:22.735Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-2fde73b5025591d33ff6-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "actual": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "startTime": "2026-09-11T14:39:21.012Z",
+            "endTime": "2026-09-11T14:39:22.337Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-2fde73b5025591d33ff6-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › numeric password",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:39:21.018Z",
+        "endTime": "2026-09-11T14:39:22.281Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:21.084Z",
+            "endTime": "2026-09-11T14:39:21.428Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:21.456Z",
+            "endTime": "2026-09-11T14:39:21.478Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:21.482Z",
+            "endTime": "2026-09-11T14:39:21.649Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:21.653Z",
+            "endTime": "2026-09-11T14:39:22.281Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-fbd82ea6b7f298b0d939-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:22.588Z",
+            "endTime": "2026-09-11T14:39:22.694Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-fbd82ea6b7f298b0d939-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "actual": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "startTime": "2026-09-11T14:39:21.018Z",
+            "endTime": "2026-09-11T14:39:22.281Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-fbd82ea6b7f298b0d939-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › very long username",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:39:21.039Z",
+        "endTime": "2026-09-11T14:39:22.309Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:21.101Z",
+            "endTime": "2026-09-11T14:39:21.434Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:21.449Z",
+            "endTime": "2026-09-11T14:39:21.474Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:21.476Z",
+            "endTime": "2026-09-11T14:39:21.647Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:21.653Z",
+            "endTime": "2026-09-11T14:39:22.281Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-485d12fbe8ffa619c8f3-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:22.597Z",
+            "endTime": "2026-09-11T14:39:22.697Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-485d12fbe8ffa619c8f3-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "actual": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "startTime": "2026-09-11T14:39:21.039Z",
+            "endTime": "2026-09-11T14:39:22.309Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-485d12fbe8ffa619c8f3-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › case sensitive username",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:39:21.093Z",
+        "endTime": "2026-09-11T14:39:22.256Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:21.191Z",
+            "endTime": "2026-09-11T14:39:21.581Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:21.583Z",
+            "endTime": "2026-09-11T14:39:21.599Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:21.606Z",
+            "endTime": "2026-09-11T14:39:21.709Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:21.716Z",
+            "endTime": "2026-09-11T14:39:22.260Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-98c34406070f2b7c2cb0-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:22.629Z",
+            "endTime": "2026-09-11T14:39:22.751Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-98c34406070f2b7c2cb0-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "actual": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "startTime": "2026-09-11T14:39:21.093Z",
+            "endTime": "2026-09-11T14:39:22.256Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-98c34406070f2b7c2cb0-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › case sensitive password",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-11T14:39:25.199Z",
+        "endTime": "2026-09-11T14:39:25.715Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:25.227Z",
+            "endTime": "2026-09-11T14:39:25.334Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:25.341Z",
+            "endTime": "2026-09-11T14:39:25.349Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:25.351Z",
+            "endTime": "2026-09-11T14:39:25.404Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:25.407Z",
+            "endTime": "2026-09-11T14:39:25.620Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-ca4d6b3a790ff0e26741-step12-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-11T14:39:25.772Z",
+            "endTime": "2026-09-11T14:39:25.847Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-ca4d6b3a790ff0e26741-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "actual": "ReferenceError: login is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/example.spec.js:11:5\n\n9 |   test(data.testname, async ({ page }) => {\n  10 |     let lgObject = new LoginPage(page);\n> 11 |     await login(page, data.username,data.password);\n     |     ^\n  12 |     await validateErrorMsg(page, data.errorMsg)\n  13 |   });\n  14 | }",
+            "startTime": "2026-09-11T14:39:25.199Z",
+            "endTime": "2026-09-11T14:39:25.715Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-ca4d6b3a790ff0e26741-video1.webm"
+        ]
+      }
+    ]
+  }
+}
