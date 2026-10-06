@@ -1,0 +1,30 @@
+{"ts":"2026-09-22T14:27:52.353Z","level":"INFO","name":"Merv","msg":"Suite started — playwright-aug-2026","suite":"playwright-aug-2026"}
+{"ts":"2026-09-22T14:27:52.769Z","level":"INFO","name":"Merv","msg":"Hook: test start — validate mock data"}
+{"ts":"2026-09-22T14:27:53.119Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"browser\" › Launch browser","suite":"playwright-aug-2026","testcase":"› chromium › mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:27:53.265Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"context\" › Create context","suite":"playwright-aug-2026","testcase":"› chromium › mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:27:53.396Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"page\" › Create page","suite":"playwright-aug-2026","testcase":"› chromium › mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:27:53.396Z","level":"INFO","name":"Merv","msg":"Hook: page setup — validate mock data","suite":"playwright-aug-2026","testcase":"mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:27:55.394Z","level":"INFO","name":"Merv","msg":"Navigate to \"/books\"","suite":"playwright-aug-2026","testcase":"› chromium › mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:27:55.514Z","level":"INFO","name":"Merv","msg":"Playwright page.goto \"https://demoqa.com/books\"","screenshot":"log/screenshots/log-2026-09-22T14-27-55-513Z.png","suite":"playwright-aug-2026","testcase":"mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:27:55.515Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:27:55.559Z","level":"INFO","name":"Merv","msg":"Attach \"merv-page-goto\"","suite":"playwright-aug-2026","testcase":"› chromium › mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:28:01.387Z","level":"INFO","name":"Merv","msg":"Hook: page teardown — validate mock data","suite":"playwright-aug-2026","testcase":"mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:28:01.609Z","level":"INFO","name":"Merv","msg":"Hook: test end — validate mock data","suite":"playwright-aug-2026","testcase":"mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:28:01.610Z","level":"ERROR","name":"Merv","msg":"Wait for timeout","suite":"playwright-aug-2026","testcase":"› chromium › mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:28:01.633Z","level":"INFO","name":"Merv","msg":"After Hooks › Fixture \"context\" › Close context","suite":"playwright-aug-2026","testcase":"› chromium › mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:28:01.803Z","level":"ERROR","name":"Merv","msg":"Test finished —  › chromium › mock.spec.js › validate mock data (FAILED)","suite":"playwright-aug-2026","testcase":"› chromium › mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:28:06.631Z","level":"INFO","name":"Merv","msg":"Suite started — playwright-aug-2026","suite":"playwright-aug-2026"}
+{"ts":"2026-09-22T14:28:07.061Z","level":"INFO","name":"Merv","msg":"Hook: test start — validate mock data"}
+{"ts":"2026-09-22T14:28:08.177Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"browser\" › Launch browser","suite":"playwright-aug-2026","testcase":"› chromium › mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:28:08.269Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"context\" › Create context","suite":"playwright-aug-2026","testcase":"› chromium › mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:28:09.619Z","level":"INFO","name":"Merv","msg":"Hook: page setup — validate mock data","suite":"playwright-aug-2026","testcase":"mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:28:09.626Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"page\" › Create page","suite":"playwright-aug-2026","testcase":"› chromium › mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:28:11.342Z","level":"INFO","name":"Merv","msg":"Navigate to \"/books\"","suite":"playwright-aug-2026","testcase":"› chromium › mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:28:11.893Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:28:11.897Z","level":"INFO","name":"Merv","msg":"Playwright page.goto \"https://demoqa.com/books\"","screenshot":"log/screenshots/log-2026-09-22T14-28-11-896Z.png","suite":"playwright-aug-2026","testcase":"mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:28:11.969Z","level":"INFO","name":"Merv","msg":"Attach \"merv-page-goto\"","suite":"playwright-aug-2026","testcase":"› chromium › mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:28:21.925Z","level":"INFO","name":"Merv","msg":"Wait for timeout","suite":"playwright-aug-2026","testcase":"› chromium › mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:28:22.060Z","level":"INFO","name":"Merv","msg":"Hook: page teardown — validate mock data","suite":"playwright-aug-2026","testcase":"mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:28:22.854Z","level":"INFO","name":"Merv","msg":"Hook: test end — validate mock data","suite":"playwright-aug-2026","testcase":"mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:28:22.857Z","level":"INFO","name":"Merv","msg":"After Hooks › Fixture \"context\" › Close context","suite":"playwright-aug-2026","testcase":"› chromium › mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:28:23.375Z","level":"INFO","name":"Merv","msg":"Test finished —  › chromium › mock.spec.js › validate mock data (PASSED)","suite":"playwright-aug-2026","testcase":"› chromium › mock.spec.js › validate mock data"}

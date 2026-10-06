@@ -6,17 +6,13 @@ test.describe.configure({
     mode: 'serial'
 })
 
-
 test.describe("api testcases" , ()=>{
-
-
  test("Api testing", async ({ request }) => {
     const response = await request.get("https://api.restful-api.dev/objects");
     expect(response.status()).toBe(200)
     let responseBody = await response.json();
     console.log(responseBody); 
 });
-
 
  test("Api testing post", async ({ request }) => {
     const response = await request.post("https://api.restful-api.dev/objects",
@@ -33,14 +29,13 @@ test.describe("api testcases" , ()=>{
                     "Hard disk size": "1 TB"
                 }
             }
-        }
+            }
         );
     expect(response.status()).toBe(200)
     let responseBody = await response.json();
     console.log(responseBody.id); 
     contentId = responseBody.id;
 });
-
 
  test("Api testing put", async ({ request }) => {
     const response = await request.put(`https://api.restful-api.dev/objects/${contentId}`,
@@ -66,3 +61,4 @@ test.describe("api testcases" , ()=>{
     contentId = responseBody.id;
 });
 })
+

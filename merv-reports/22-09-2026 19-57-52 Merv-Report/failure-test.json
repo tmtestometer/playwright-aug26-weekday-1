@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "exportDate": "Tue Sep 22 2026 19:58:01 GMT+0530 (India Standard Time)",
+  "suiteTitle": "playwright-aug-2026",
+  "running": false,
+  "failureCount": 1,
+  "failures": [
+    {
+      "testcaseName": "› chromium › mock.spec.js › validate mock data",
+      "status": "FAILED",
+      "failureReason": "Wait for timeout: Error: page.waitForTimeout: Test ended.\n    at Proxy.waitForTimeout (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/node_modules/merv-client-playwright/dist/chunk-NBH34OZ2.js:222:26)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/mock.spec.js:31:16\n\n29 |     \n  30 |     await page.goto(\"https://demoqa.com/books\");\n> 31 |     await page.waitForTimeout(10000);\n     |                ^\n  32 |\n  33 | });\n  34 |",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-22T14:27:52.744Z",
+      "endTime": "2026-09-22T14:28:01.231Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    }
+  ]
+}

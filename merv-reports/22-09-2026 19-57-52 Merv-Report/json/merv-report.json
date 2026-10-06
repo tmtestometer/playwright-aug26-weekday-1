@@ -1,0 +1,87 @@
+{
+  "version": "1.0",
+  "running": false,
+  "lastActivityMillis": 1790087281828,
+  "exportDate": "Tue Sep 22 2026 19:58:01 GMT+0530 (India Standard Time)",
+  "testSuite": {
+    "title": "playwright-aug-2026",
+    "startTime": "2026-09-22T14:27:52.307Z",
+    "endTime": "2026-09-22T14:28:01.828Z",
+    "testCases": [
+      {
+        "testcaseName": " › chromium › mock.spec.js › validate mock data",
+        "status": "FAILED",
+        "failureReason": "Wait for timeout: Error: page.waitForTimeout: Test ended.\n    at Proxy.waitForTimeout (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/node_modules/merv-client-playwright/dist/chunk-NBH34OZ2.js:222:26)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/mock.spec.js:31:16\n\n29 |     \n  30 |     await page.goto(\"https://demoqa.com/books\");\n> 31 |     await page.waitForTimeout(10000);\n     |                ^\n  32 |\n  33 | });\n  34 |",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T14:27:52.744Z",
+        "endTime": "2026-09-22T14:28:01.231Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T14:27:52.772Z",
+            "endTime": "2026-09-22T14:27:53.118Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T14:27:53.120Z",
+            "endTime": "2026-09-22T14:27:53.129Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T14:27:53.131Z",
+            "endTime": "2026-09-22T14:27:53.396Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Navigate to \"/books\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T14:27:53.400Z",
+            "endTime": "2026-09-22T14:27:55.393Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/89d1db546b68f60f5929-fe2193530cf1b53f4786-step11-0.png"
+            ]
+          },
+          {
+            "teststepName": "Wait for timeout",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "FAILED",
+            "startTime": "2026-09-22T14:27:55.517Z",
+            "endTime": "2026-09-22T14:28:01.605Z",
+            "errorMessage": "Error: page.waitForTimeout: Test ended.\n    at Proxy.waitForTimeout (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/node_modules/merv-client-playwright/dist/chunk-NBH34OZ2.js:222:26)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/mock.spec.js:31:16\n\n29 |     \n  30 |     await page.goto(\"https://demoqa.com/books\");\n> 31 |     await page.waitForTimeout(10000);\n     |                ^\n  32 |\n  33 | });\n  34 |",
+            "screenshots": [
+              "screenshots/89d1db546b68f60f5929-fe2193530cf1b53f4786-att0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T14:28:01.390Z",
+            "endTime": "2026-09-22T14:28:01.605Z",
+            "errorMessage": null,
+            "screenshots": []
+          }
+        ],
+        "videos": [
+          "videos/89d1db546b68f60f5929-fe2193530cf1b53f4786-video1.webm"
+        ]
+      }
+    ]
+  }
+}
