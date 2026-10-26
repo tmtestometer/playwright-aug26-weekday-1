@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "exportDate": "Fri Oct 23 2026 09:44:16 GMT+0530 (India Standard Time)",
+  "suiteTitle": "playwright-aug-2026",
+  "running": false,
+  "failureCount": 1,
+  "failures": [
+    {
+      "testcaseName": "› chromium › alert.spec.js › handling windows",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: s is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/alert.spec.js:25:57\n\n23 |\n  24 |     let googlePage = await popupPromise;\n> 25 |     googlePage.locator(\"[name='q']\").fill(\"Javascript\");s\n     |                                                         ^\n  26 |\n  27 |     await page.waitForTimeout(5000);\n  28 | })",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-10-23T04:14:13.545Z",
+      "endTime": "2026-10-23T04:14:15.265Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{"ts":"2026-10-23T04:02:27.611Z","level":"INFO","name":"Merv","msg":"Suite started — playwright-aug-2026","suite":"playwright-aug-2026"}
+{"ts":"2026-10-23T04:02:27.957Z","level":"INFO","name":"Merv","msg":"Hook: test start — handling alert"}
+{"ts":"2026-10-23T04:02:28.667Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"browser\" › Launch browser","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:02:28.766Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"context\" › Create context","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:02:29.163Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"page\" › Create page","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:02:29.164Z","level":"INFO","name":"Merv","msg":"Hook: page setup — handling alert","suite":"playwright-aug-2026","testcase":"alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:02:29.399Z","level":"INFO","name":"Merv","msg":"Playwright page.goto \"file:///Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/aler…\"","screenshot":"log/screenshots/log-2026-10-23T04-02-29-398Z.png","suite":"playwright-aug-2026","testcase":"alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:02:29.413Z","level":"INFO","name":"Merv","msg":"Navigate to \"/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/alert.html\"","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:02:29.484Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:02:29.558Z","level":"INFO","name":"Merv","msg":"Attach \"merv-page-goto\"","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:02:29.630Z","level":"INFO","name":"Merv","msg":"Wait for event \"dialog\"","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:03:03.689Z","level":"INFO","name":"Merv","msg":"Hook: page teardown — handling alert","suite":"playwright-aug-2026","testcase":"alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:03:09.618Z","level":"WARN","name":"Merv","msg":"Merv screenshot skipped — page already closed (loc-click-fail)","suite":"playwright-aug-2026","testcase":"alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:03:09.618Z","level":"INFO","name":"Merv","msg":"Playwright locator.click getByText('Click me') (failed)","suite":"playwright-aug-2026","testcase":"alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:03:09.621Z","level":"INFO","name":"Merv","msg":"Hook: test end — handling alert","suite":"playwright-aug-2026","testcase":"alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:03:09.621Z","level":"ERROR","name":"Merv","msg":"Click getByText('Click me')","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:03:09.651Z","level":"INFO","name":"Merv","msg":"After Hooks › Fixture \"context\" › Close context","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:03:09.858Z","level":"ERROR","name":"Merv","msg":"Test finished —  › chromium › alert.spec.js › handling alert (FAILED)","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:04:32.313Z","level":"INFO","name":"Merv","msg":"Suite started — playwright-aug-2026","suite":"playwright-aug-2026"}
+{"ts":"2026-10-23T04:04:32.647Z","level":"INFO","name":"Merv","msg":"Hook: test start — handling alert"}
+{"ts":"2026-10-23T04:04:33.314Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"browser\" › Launch browser","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:04:33.389Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"context\" › Create context","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:04:33.765Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"page\" › Create page","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:04:33.765Z","level":"INFO","name":"Merv","msg":"Hook: page setup — handling alert","suite":"playwright-aug-2026","testcase":"alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:04:33.900Z","level":"INFO","name":"Merv","msg":"Playwright page.goto \"file:///Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/aler…\"","screenshot":"log/screenshots/log-2026-10-23T04-04-33-899Z.png","suite":"playwright-aug-2026","testcase":"alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:04:33.907Z","level":"INFO","name":"Merv","msg":"Navigate to \"/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/alert.html\"","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:04:34.000Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:04:34.014Z","level":"INFO","name":"Merv","msg":"Playwright locator.click getByText('Click me')","screenshot":"log/screenshots/log-2026-10-23T04-04-34-013Z.png","suite":"playwright-aug-2026","testcase":"alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:04:34.071Z","level":"INFO","name":"Merv","msg":"Attach \"merv-page-goto\"","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:04:34.156Z","level":"INFO","name":"Merv","msg":"Click getByText('Click me')","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:04:34.187Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:04:34.216Z","level":"INFO","name":"Merv","msg":"Attach \"merv-loc-click\"","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:04:35.985Z","level":"INFO","name":"Merv","msg":"Wait for event \"dialog\"","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:04:36.084Z","level":"INFO","name":"Merv","msg":"Hook: page teardown — handling alert","suite":"playwright-aug-2026","testcase":"alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:04:36.098Z","level":"INFO","name":"Merv","msg":"Accept dialog","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:04:36.272Z","level":"INFO","name":"Merv","msg":"Hook: test end — handling alert","suite":"playwright-aug-2026","testcase":"alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:04:36.362Z","level":"INFO","name":"Merv","msg":"After Hooks › Fixture \"context\" › Close context","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling alert"}
+{"ts":"2026-10-23T04:04:36.497Z","level":"INFO","name":"Merv","msg":"Test finished —  › chromium › alert.spec.js › handling alert (PASSED)","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling alert"}

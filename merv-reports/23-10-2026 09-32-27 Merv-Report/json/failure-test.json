@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "exportDate": "Fri Oct 23 2026 09:33:09 GMT+0530 (India Standard Time)",
+  "suiteTitle": "playwright-aug-2026",
+  "running": false,
+  "failureCount": 1,
+  "failures": [
+    {
+      "testcaseName": "› chromium › alert.spec.js › handling alert",
+      "status": "FAILED",
+      "failureReason": "Click getByText('Click me'): Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for getByText('Click me')\n    - locator resolved to <button onclick=\"alertMe();\">Click me</button>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - performing click action\n\n    at Proxy.click (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/node_modules/merv-client-playwright/dist/chunk-NBH34OZ2.js:163:28)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/alert.spec.js:7:38\n\n5 |     let popupPromise = page.waitForEvent(\"dialog\");\n   6 |     \n>  7 |     await page.getByText(\"Click me\").click();\n     |                                      ^\n   8 |\n   9 |     let popupObject = await popupPromise;\n  10 |     let msg = await popupObject.message();\n\nTest timeout of 30000ms exceeded.\n\nError: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for getByText('Click me')\n    - locator resolved to <button onclick=\"alertMe();\">Click me</button>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - performing click action\n\n    at Proxy.click (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/node_modules/merv-client-playwright/dist/chunk-NBH34OZ2.js:163:28)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/alert.spec.js:7:38\n\n5 |     let popupPromise = page.waitForEvent(\"dialog\");\n   6 |     \n>  7 |     await page.getByText(\"Click me\").click();\n     |                                      ^\n   8 |\n   9 |     let popupObject = await popupPromise;\n  10 |     let msg = await popupObject.message();",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-10-23T04:02:27.932Z",
+      "endTime": "2026-10-23T04:03:08.887Z",
+      "executionMachine": "Vaibhavs-Laptop.local",
+      "testdataSteps": []
+    }
+  ]
+}

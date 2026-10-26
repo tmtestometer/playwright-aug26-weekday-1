@@ -1,0 +1,118 @@
+{
+  "version": "1.0",
+  "running": false,
+  "lastActivityMillis": 1792728871434,
+  "exportDate": "Fri Oct 23 2026 09:44:31 GMT+0530 (India Standard Time)",
+  "testSuite": {
+    "title": "playwright-aug-2026",
+    "startTime": "2026-10-23T04:14:23.650Z",
+    "endTime": "2026-10-23T04:14:31.434Z",
+    "testCases": [
+      {
+        "testcaseName": " › chromium › alert.spec.js › handling windows",
+        "status": "PASSED",
+        "failureReason": null,
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-10-23T04:14:23.982Z",
+        "endTime": "2026-10-23T04:14:30.504Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-10-23T04:14:24.005Z",
+            "endTime": "2026-10-23T04:14:24.647Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-10-23T04:14:24.649Z",
+            "endTime": "2026-10-23T04:14:24.665Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-10-23T04:14:24.666Z",
+            "endTime": "2026-10-23T04:14:25.079Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Navigate to \"/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/alert.html\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-10-23T04:14:25.092Z",
+            "endTime": "2026-10-23T04:14:25.192Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/58a97d902aa7686a9021-e31aef86ecc0941dda09-step11-0.png"
+            ]
+          },
+          {
+            "teststepName": "Wait for event \"popup\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-10-23T04:14:25.249Z",
+            "endTime": "2026-10-23T04:14:25.579Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click getByText('Google')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-10-23T04:14:25.252Z",
+            "endTime": "2026-10-23T04:14:25.417Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/58a97d902aa7686a9021-e31aef86ecc0941dda09-step15-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"Javascript\" locator('[name=\\'q\\']')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-10-23T04:14:25.583Z",
+            "endTime": "2026-10-23T04:14:25.657Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Wait for timeout",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-10-23T04:14:25.584Z",
+            "endTime": "2026-10-23T04:14:30.587Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-10-23T04:14:30.972Z",
+            "endTime": "2026-10-23T04:14:31.161Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/58a97d902aa7686a9021-e31aef86ecc0941dda09-att0.png",
+              "screenshots/58a97d902aa7686a9021-e31aef86ecc0941dda09-att1.png"
+            ]
+          }
+        ],
+        "videos": [
+          "videos/58a97d902aa7686a9021-e31aef86ecc0941dda09-video2.webm",
+          "videos/58a97d902aa7686a9021-e31aef86ecc0941dda09-video3.webm"
+        ]
+      }
+    ]
+  }
+}

@@ -29,10 +29,15 @@ test('validate mock data', async ({ page }) => {
     // UI - multiple component - integration 
     
     await page.goto("https://demoqa.com/books");
-     await page.waitForTimeout(10000);
+    await page.waitForTimeout(10000);
+    page.locator("[data-test='product-sort-container']").selectOption({label:"Price (low to high)"});
+    page.waitForLoadState('load')
+    // storage state in playwright 
 
-
-// storage state in playwright 
+// mutliple windows and alerts
+// Jenkins - bdd cucumber
+// multiple environment
+// custom fixture
 
 });
 

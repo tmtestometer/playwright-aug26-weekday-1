@@ -1,0 +1,98 @@
+{
+  "version": "1.0",
+  "running": false,
+  "lastActivityMillis": 1792727830867,
+  "exportDate": "Fri Oct 23 2026 09:27:10 GMT+0530 (India Standard Time)",
+  "testSuite": {
+    "title": "playwright-aug-2026",
+    "startTime": "2026-10-23T03:57:03.061Z",
+    "endTime": "2026-10-23T03:57:10.867Z",
+    "testCases": [
+      {
+        "testcaseName": " › chromium › alert.spec.js › handling alert",
+        "status": "PASSED",
+        "failureReason": null,
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-10-23T03:57:03.524Z",
+        "endTime": "2026-10-23T03:57:09.090Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-10-23T03:57:03.554Z",
+            "endTime": "2026-10-23T03:57:05.175Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-10-23T03:57:05.178Z",
+            "endTime": "2026-10-23T03:57:05.188Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-10-23T03:57:05.189Z",
+            "endTime": "2026-10-23T03:57:05.251Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Navigate to \"/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/alert.html\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-10-23T03:57:05.254Z",
+            "endTime": "2026-10-23T03:57:05.266Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/58a97d902aa7686a9021-c5500b867b228bd5d905-step11-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click getByText('Click me')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-10-23T03:57:05.450Z",
+            "endTime": "2026-10-23T03:57:05.493Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/58a97d902aa7686a9021-c5500b867b228bd5d905-step14-0.png"
+            ]
+          },
+          {
+            "teststepName": "Wait for timeout",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-10-23T03:57:05.522Z",
+            "endTime": "2026-10-23T03:57:10.522Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-10-23T03:57:10.556Z",
+            "endTime": "2026-10-23T03:57:10.738Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/58a97d902aa7686a9021-c5500b867b228bd5d905-att0.png"
+            ]
+          }
+        ],
+        "videos": [
+          "videos/58a97d902aa7686a9021-c5500b867b228bd5d905-video1.webm"
+        ]
+      }
+    ]
+  }
+}

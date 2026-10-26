@@ -1,0 +1,118 @@
+{
+  "version": "1.0",
+  "running": false,
+  "lastActivityMillis": 1792728856390,
+  "exportDate": "Fri Oct 23 2026 09:44:16 GMT+0530 (India Standard Time)",
+  "testSuite": {
+    "title": "playwright-aug-2026",
+    "startTime": "2026-10-23T04:14:13.190Z",
+    "endTime": "2026-10-23T04:14:16.390Z",
+    "testCases": [
+      {
+        "testcaseName": " › chromium › alert.spec.js › handling windows",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: s is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/alert.spec.js:25:57\n\n23 |\n  24 |     let googlePage = await popupPromise;\n> 25 |     googlePage.locator(\"[name='q']\").fill(\"Javascript\");s\n     |                                                         ^\n  26 |\n  27 |     await page.waitForTimeout(5000);\n  28 | })",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-10-23T04:14:13.545Z",
+        "endTime": "2026-10-23T04:14:15.265Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-10-23T04:14:13.567Z",
+            "endTime": "2026-10-23T04:14:14.353Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-10-23T04:14:14.357Z",
+            "endTime": "2026-10-23T04:14:14.384Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-10-23T04:14:14.386Z",
+            "endTime": "2026-10-23T04:14:14.881Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Navigate to \"/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/alert.html\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-10-23T04:14:14.887Z",
+            "endTime": "2026-10-23T04:14:15.018Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/58a97d902aa7686a9021-e31aef86ecc0941dda09-step11-0.png"
+            ]
+          },
+          {
+            "teststepName": "Wait for event \"popup\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-10-23T04:14:15.167Z",
+            "endTime": "2026-10-23T04:14:15.504Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click getByText('Google')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-10-23T04:14:15.172Z",
+            "endTime": "2026-10-23T04:14:15.349Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/58a97d902aa7686a9021-e31aef86ecc0941dda09-step15-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"Javascript\" locator('[name=\\'q\\']')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-10-23T04:14:15.516Z",
+            "endTime": "2026-10-23T04:14:15.895Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-10-23T04:14:15.898Z",
+            "endTime": "2026-10-23T04:14:16.066Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/58a97d902aa7686a9021-e31aef86ecc0941dda09-att0.png",
+              "screenshots/58a97d902aa7686a9021-e31aef86ecc0941dda09-att1.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: s is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/alert.spec.js:25:57\n\n23 |\n  24 |     let googlePage = await popupPromise;\n> 25 |     googlePage.locator(\"[name='q']\").fill(\"Javascript\");s\n     |                                                         ^\n  26 |\n  27 |     await page.waitForTimeout(5000);\n  28 | })",
+            "actual": "ReferenceError: s is not defined\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/alert.spec.js:25:57\n\n23 |\n  24 |     let googlePage = await popupPromise;\n> 25 |     googlePage.locator(\"[name='q']\").fill(\"Javascript\");s\n     |                                                         ^\n  26 |\n  27 |     await page.waitForTimeout(5000);\n  28 | })",
+            "startTime": "2026-10-23T04:14:13.545Z",
+            "endTime": "2026-10-23T04:14:15.265Z"
+          }
+        ],
+        "videos": [
+          "videos/58a97d902aa7686a9021-e31aef86ecc0941dda09-video2.webm",
+          "videos/58a97d902aa7686a9021-e31aef86ecc0941dda09-video3.webm"
+        ]
+      }
+    ]
+  }
+}

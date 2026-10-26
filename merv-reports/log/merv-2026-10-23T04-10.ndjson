@@ -1,0 +1,41 @@
+{"ts":"2026-10-23T04:14:13.228Z","level":"INFO","name":"Merv","msg":"Suite started — playwright-aug-2026","suite":"playwright-aug-2026"}
+{"ts":"2026-10-23T04:14:13.564Z","level":"INFO","name":"Merv","msg":"Hook: test start — handling windows"}
+{"ts":"2026-10-23T04:14:14.353Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"browser\" › Launch browser","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:14.421Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"context\" › Create context","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:14.882Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"page\" › Create page","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:14.882Z","level":"INFO","name":"Merv","msg":"Hook: page setup — handling windows","suite":"playwright-aug-2026","testcase":"alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:15.019Z","level":"INFO","name":"Merv","msg":"Navigate to \"/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/alert.html\"","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:15.163Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:15.165Z","level":"INFO","name":"Merv","msg":"Playwright page.goto \"file:///Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/aler…\"","screenshot":"log/screenshots/log-2026-10-23T04-14-15-164Z.png","suite":"playwright-aug-2026","testcase":"alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:15.232Z","level":"INFO","name":"Merv","msg":"Attach \"merv-page-goto\"","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:15.359Z","level":"INFO","name":"Merv","msg":"Click getByText('Google')","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:15.406Z","level":"INFO","name":"Merv","msg":"Playwright locator.click getByText('Google')","screenshot":"log/screenshots/log-2026-10-23T04-14-15-405Z.png","suite":"playwright-aug-2026","testcase":"alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:15.422Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:15.475Z","level":"INFO","name":"Merv","msg":"Attach \"merv-loc-click\"","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:15.510Z","level":"INFO","name":"Merv","msg":"Wait for event \"popup\"","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:15.833Z","level":"INFO","name":"Merv","msg":"Hook: page teardown — handling windows","suite":"playwright-aug-2026","testcase":"alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:16.045Z","level":"INFO","name":"Merv","msg":"Fill \"Javascript\" locator('[name=\\'q\\']')","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:16.072Z","level":"INFO","name":"Merv","msg":"Hook: test end — handling windows","suite":"playwright-aug-2026","testcase":"alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:16.115Z","level":"INFO","name":"Merv","msg":"After Hooks › Fixture \"context\" › Close context","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:16.362Z","level":"ERROR","name":"Merv","msg":"Test finished —  › chromium › alert.spec.js › handling windows (FAILED)","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:23.669Z","level":"INFO","name":"Merv","msg":"Suite started — playwright-aug-2026","suite":"playwright-aug-2026"}
+{"ts":"2026-10-23T04:14:24.000Z","level":"INFO","name":"Merv","msg":"Hook: test start — handling windows"}
+{"ts":"2026-10-23T04:14:24.647Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"browser\" › Launch browser","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:24.714Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"context\" › Create context","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:25.081Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"page\" › Create page","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:25.084Z","level":"INFO","name":"Merv","msg":"Hook: page setup — handling windows","suite":"playwright-aug-2026","testcase":"alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:25.247Z","level":"INFO","name":"Merv","msg":"Playwright page.goto \"file:///Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/aler…\"","screenshot":"log/screenshots/log-2026-10-23T04-14-25-246Z.png","suite":"playwright-aug-2026","testcase":"alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:25.357Z","level":"INFO","name":"Merv","msg":"Navigate to \"/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/alert.html\"","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:25.440Z","level":"INFO","name":"Merv","msg":"Playwright locator.click getByText('Google')","screenshot":"log/screenshots/log-2026-10-23T04-14-25-440Z.png","suite":"playwright-aug-2026","testcase":"alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:25.452Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:25.509Z","level":"INFO","name":"Merv","msg":"Attach \"merv-page-goto\"","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:25.615Z","level":"INFO","name":"Merv","msg":"Click getByText('Google')","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:25.759Z","level":"INFO","name":"Merv","msg":"Screenshot","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:25.832Z","level":"INFO","name":"Merv","msg":"Attach \"merv-loc-click\"","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:25.865Z","level":"INFO","name":"Merv","msg":"Wait for event \"popup\"","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:25.961Z","level":"INFO","name":"Merv","msg":"Fill \"Javascript\" locator('[name=\\'q\\']')","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:30.587Z","level":"INFO","name":"Merv","msg":"Wait for timeout","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:30.969Z","level":"INFO","name":"Merv","msg":"Hook: page teardown — handling windows","suite":"playwright-aug-2026","testcase":"alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:31.162Z","level":"INFO","name":"Merv","msg":"After Hooks › Fixture \"context\" › Close context","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:31.167Z","level":"INFO","name":"Merv","msg":"Hook: test end — handling windows","suite":"playwright-aug-2026","testcase":"alert.spec.js › handling windows"}
+{"ts":"2026-10-23T04:14:31.332Z","level":"INFO","name":"Merv","msg":"Test finished —  › chromium › alert.spec.js › handling windows (PASSED)","suite":"playwright-aug-2026","testcase":"› chromium › alert.spec.js › handling windows"}

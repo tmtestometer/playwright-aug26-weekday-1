@@ -25,10 +25,6 @@ endpoint -
     PATCH - partailly 
     DELETE  - delete 
 
-
-
-
-
 https://api.restful-api.dev/objects
 
 response 

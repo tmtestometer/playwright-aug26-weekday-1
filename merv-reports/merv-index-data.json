@@ -1,6 +1,12 @@
 {
-  "generatedAt": 1790087303666,
+  "generatedAt": 1792728871445,
   "folders": [
+    "23-10-2026%2009-44-23%20Merv-Report",
+    "23-10-2026%2009-44-13%20Merv-Report",
+    "23-10-2026%2009-34-32%20Merv-Report",
+    "23-10-2026%2009-32-27%20Merv-Report",
+    "23-10-2026%2009-27-16%20Merv-Report",
+    "23-10-2026%2009-27-03%20Merv-Report",
     "22-09-2026%2019-58-06%20Merv-Report",
     "22-09-2026%2019-57-52%20Merv-Report",
     "21-09-2026%2020-20-50%20Merv-Report",
@@ -41,9 +47,111 @@
   ],
   "entries": [
     {
+      "folderName": "23-10-2026 09-44-23 Merv-Report",
+      "encodedFolderName": "23-10-2026%2009-44-23%20Merv-Report",
+      "lastModified": 1792728871435.223,
+      "hasFinal": true,
+      "hasLive": true,
+      "title": "playwright-aug-2026",
+      "total": 1,
+      "pass": 1,
+      "fail": 0,
+      "skip": 0,
+      "tags": [
+        "chromium"
+      ],
+      "tagsDisplay": "chromium",
+      "running": false
+    },
+    {
+      "folderName": "23-10-2026 09-44-13 Merv-Report",
+      "encodedFolderName": "23-10-2026%2009-44-13%20Merv-Report",
+      "lastModified": 1792728856411.364,
+      "hasFinal": true,
+      "hasLive": true,
+      "title": "playwright-aug-2026",
+      "total": 1,
+      "pass": 0,
+      "fail": 1,
+      "skip": 0,
+      "tags": [
+        "chromium"
+      ],
+      "tagsDisplay": "chromium",
+      "running": false
+    },
+    {
+      "folderName": "23-10-2026 09-34-32 Merv-Report",
+      "encodedFolderName": "23-10-2026%2009-34-32%20Merv-Report",
+      "lastModified": 1792728276630.9006,
+      "hasFinal": true,
+      "hasLive": true,
+      "title": "playwright-aug-2026",
+      "total": 1,
+      "pass": 1,
+      "fail": 0,
+      "skip": 0,
+      "tags": [
+        "chromium"
+      ],
+      "tagsDisplay": "chromium",
+      "running": false
+    },
+    {
+      "folderName": "23-10-2026 09-32-27 Merv-Report",
+      "encodedFolderName": "23-10-2026%2009-32-27%20Merv-Report",
+      "lastModified": 1792728189907.4397,
+      "hasFinal": true,
+      "hasLive": true,
+      "title": "playwright-aug-2026",
+      "total": 1,
+      "pass": 0,
+      "fail": 1,
+      "skip": 0,
+      "tags": [
+        "chromium"
+      ],
+      "tagsDisplay": "chromium",
+      "running": false
+    },
+    {
+      "folderName": "23-10-2026 09-27-16 Merv-Report",
+      "encodedFolderName": "23-10-2026%2009-27-16%20Merv-Report",
+      "lastModified": 1792727846811.8674,
+      "hasFinal": true,
+      "hasLive": true,
+      "title": "playwright-aug-2026",
+      "total": 1,
+      "pass": 1,
+      "fail": 0,
+      "skip": 0,
+      "tags": [
+        "chromium"
+      ],
+      "tagsDisplay": "chromium",
+      "running": false
+    },
+    {
+      "folderName": "23-10-2026 09-27-03 Merv-Report",
+      "encodedFolderName": "23-10-2026%2009-27-03%20Merv-Report",
+      "lastModified": 1792727830888.7988,
+      "hasFinal": true,
+      "hasLive": true,
+      "title": "playwright-aug-2026",
+      "total": 1,
+      "pass": 1,
+      "fail": 0,
+      "skip": 0,
+      "tags": [
+        "chromium"
+      ],
+      "tagsDisplay": "chromium",
+      "running": false
+    },
+    {
       "folderName": "22-09-2026 19-58-06 Merv-Report",
       "encodedFolderName": "22-09-2026%2019-58-06%20Merv-Report",
-      "lastModified": 1790087303647.9956,
+      "lastModified": 1790087303703.1887,
       "hasFinal": true,
       "hasLive": true,
       "title": "playwright-aug-2026",

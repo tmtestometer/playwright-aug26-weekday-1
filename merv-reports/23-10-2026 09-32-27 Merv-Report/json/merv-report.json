@@ -1,0 +1,94 @@
+{
+  "version": "1.0",
+  "running": false,
+  "lastActivityMillis": 1792728189884,
+  "exportDate": "Fri Oct 23 2026 09:33:09 GMT+0530 (India Standard Time)",
+  "testSuite": {
+    "title": "playwright-aug-2026",
+    "startTime": "2026-10-23T04:02:27.574Z",
+    "endTime": "2026-10-23T04:03:09.884Z",
+    "testCases": [
+      {
+        "testcaseName": " › chromium › alert.spec.js › handling alert",
+        "status": "FAILED",
+        "failureReason": "Click getByText('Click me'): Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for getByText('Click me')\n    - locator resolved to <button onclick=\"alertMe();\">Click me</button>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - performing click action\n\n    at Proxy.click (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/node_modules/merv-client-playwright/dist/chunk-NBH34OZ2.js:163:28)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/alert.spec.js:7:38\n\n5 |     let popupPromise = page.waitForEvent(\"dialog\");\n   6 |     \n>  7 |     await page.getByText(\"Click me\").click();\n     |                                      ^\n   8 |\n   9 |     let popupObject = await popupPromise;\n  10 |     let msg = await popupObject.message();\n\nTest timeout of 30000ms exceeded.\n\nError: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for getByText('Click me')\n    - locator resolved to <button onclick=\"alertMe();\">Click me</button>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - performing click action\n\n    at Proxy.click (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/node_modules/merv-client-playwright/dist/chunk-NBH34OZ2.js:163:28)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/alert.spec.js:7:38\n\n5 |     let popupPromise = page.waitForEvent(\"dialog\");\n   6 |     \n>  7 |     await page.getByText(\"Click me\").click();\n     |                                      ^\n   8 |\n   9 |     let popupObject = await popupPromise;\n  10 |     let msg = await popupObject.message();",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-10-23T04:02:27.932Z",
+        "endTime": "2026-10-23T04:03:08.887Z",
+        "executionMachine": "Vaibhavs-Laptop.local",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-10-23T04:02:27.961Z",
+            "endTime": "2026-10-23T04:02:28.666Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-10-23T04:02:28.670Z",
+            "endTime": "2026-10-23T04:02:28.688Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-10-23T04:02:28.689Z",
+            "endTime": "2026-10-23T04:02:29.163Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Navigate to \"/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/alert.html\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-10-23T04:02:29.166Z",
+            "endTime": "2026-10-23T04:02:29.323Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/58a97d902aa7686a9021-c5500b867b228bd5d905-step11-0.png"
+            ]
+          },
+          {
+            "teststepName": "Wait for event \"dialog\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-10-23T04:02:29.402Z",
+            "endTime": "2026-10-23T04:02:29.470Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click getByText('Click me')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "FAILED",
+            "startTime": "2026-10-23T04:02:29.405Z",
+            "endTime": "2026-10-23T04:03:09.617Z",
+            "errorMessage": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for getByText('Click me')\n    - locator resolved to <button onclick=\"alertMe();\">Click me</button>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - performing click action\n\n    at Proxy.click (/Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/node_modules/merv-client-playwright/dist/chunk-NBH34OZ2.js:163:28)\n    at /Users/vaibhavsingh/Desktop/teche-apps/playwright-aug26-weekday-1/tests/alert.spec.js:7:38\n\n5 |     let popupPromise = page.waitForEvent(\"dialog\");\n   6 |     \n>  7 |     await page.getByText(\"Click me\").click();\n     |                                      ^\n   8 |\n   9 |     let popupObject = await popupPromise;\n  10 |     let msg = await popupObject.message();",
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-10-23T04:03:08.704Z",
+            "endTime": "2026-10-23T04:03:09.620Z",
+            "errorMessage": null,
+            "screenshots": []
+          }
+        ],
+        "videos": [
+          "videos/58a97d902aa7686a9021-c5500b867b228bd5d905-video0.webm"
+        ]
+      }
+    ]
+  }
+}
